@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<style id="jetpack-boost-critical-css">@media all{#jp-relatedposts{display:none;padding-top:1em;margin:1em 0;position:relative;clear:both;}.jp-relatedposts::after{content:"";display:block;clear:both;}#jp-relatedposts h3.jp-relatedposts-headline{margin:0 0 1em 0;display:inline-block;float:left;font-size:9pt;font-weight:700;font-family:inherit;}#jp-relatedposts h3.jp-relatedposts-headline em::before{content:"";display:block;width:100%;min-width:30px;border-top:1px solid rgba(0,0,0,.2);margin-bottom:1em;}#jp-relatedposts h3.jp-relatedposts-headline em{font-style:normal;font-weight:700;}}@media all{@font-face{font-family:FontAwesome;font-weight:400;font-style:normal;}.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}.fa-search:before{content:"";}.fa-user:before{content:"";}.fa-times:before{content:"";}.fa-calendar:before{content:"";}.fa-chevron-down:before{content:"";}}@media all{ul{box-sizing:border-box;}.entry-content{counter-reset:footnotes;}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal !important;}:where(figure){margin:0 0 1em;}}@media all{html{line-height:1.15;-webkit-text-size-adjust:100%;}body{margin:0;}main{display:block;}h1{font-size:2em;margin:.67em 0;}a{background-color:transparent;}strong{font-weight:bolder;}img{border-style:none;}img{max-width:100%;margin:0;}button,input,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0;}button,input{overflow:visible;}button{text-transform:none;}[type=submit],button{-webkit-appearance:button;}fieldset{padding:.35em .75em .625em;}textarea{overflow:auto;}[type=search]{-webkit-appearance:textfield;outline-offset:-2px;}*,::after,::before{box-sizing:inherit;}*{min-height:0;min-width:0;}html{box-sizing:border-box;}body,button,input,textarea{color:#404040;font-family:Mulish,sans-serif;font-size:1rem;line-height:1.5;}h1,h2,h3{clear:both;font-family:Poppins,sans-serif;}p{margin-bottom:1.5em;}em,i{font-style:italic;}ul{margin:0 0 1.5em 3em;}ul{list-style:disc;}img{height:auto;max-width:100%;}figure{margin:1em 0;text-align:center;}button,input[type=submit]{border:1px solid;border-color:#ccc #ccc #bbb;border-radius:3px;background:#e6e6e6;color:rgba(0,0,0,.8);line-height:1;padding:.6em 1em .4em;}input[type=search],input[type=text],textarea{color:#666;border:1px solid #ccc;border-radius:3px;padding:3px;}textarea{width:100%;}.main-navigation{display:block;width:100%;}.main-navigation ul{display:none;list-style:none;margin:0;padding-left:0;}.main-navigation li{position:relative;}.main-navigation a{display:block;text-decoration:none;}.menu-toggle{display:block;}@media screen and (min-width:37.5em){.menu-toggle{display:none;}.main-navigation ul{display:flex;justify-content:flex-end;flex-wrap:wrap;text-transform:capitalize;text-align:left;}.main-navigation #primary-menu>li{margin-right:20px;}}.post{margin:0 0 30px;}.updated:not(.published){display:none;}.entry-content{margin:1.5em 0 0;}.custom-logo-link{display:inline-block;}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute !important;width:1px;word-wrap:normal !important;}.row{display:flex;flex-wrap:wrap;flex-direction:column;margin-left:-15px;margin-right:-15px;}.row.row-center-col{justify-content:center;}.col,[class*=col-]{padding:0 15px;}.col{flex:100%;max-width:100%;}.col-1-1{flex:0 0 100%;max-width:100%;}@media screen and (max-width:767px){[class*=col-]{flex:100%;max-width:100%;}}@media screen and (min-width:768px){.row{flex-direction:row;}.col-sm-1-3{flex:0 0 33.33337%;max-width:33.33337%;}.col-sm-2-3{flex:0 0 86.66667%;max-width:86.66667%;}}@media screen and (min-width:992px){.row{margin-left:-15px;margin-right:-15px;}.col,[class*=col-]{padding:0 15px;}.col-md-1-3{flex:0 0 33.33337%;max-width:33.33337%;}.col-md-2-3{flex:0 0 66.66667%;max-width:66.66667%;}.col-md-1-4{flex:0 0 25%;max-width:25%;}.col-md-2-4{flex:0 0 75%;max-width:75%;}}@media screen and (min-width:1200px){.row{margin-left:-20px;margin-right:-20px;}.col,[class*=col-]{padding:0 20px;}#primary[class*=col-]{padding:0 15px 0 20px;}.col-lg-1-4{flex:0 0 25%;max-width:25%;}.col-lg-2-4{flex:0 0 75%;max-width:75%;}}.container{max-width:1200px;padding:0 15px;margin:0 auto;}.top-header-toggle-btn{display:block;text-align:center;}.site-header{padding:20px 0 30px;}.site-header .custom-logo-link{display:block;}.site-branding .custom-logo-link+.site-title{margin-top:15px;}.site-header .custom-logo-link img{display:block;}.site-header-bottom{padding:15px 0;border-width:0 0 3px;border-style:solid;border-color:#0092df;}@media screen and (max-width:767px){.site-header-topbar .container{display:none;padding-top:10px;}.main-navigation ul#primary-menu{display:none;}}@media screen and (min-width:768px){.top-header-toggle-btn{display:none;}.site-header .row{align-items:center;}.site-header{box-shadow:0 5px 15px rgba(0,0,0,.04);z-index:2;position:relative;}.site-header #primary-menu>li{margin-right:1.2em;}.site-header-bottom{padding:15px 0;border-width:0 0 3px;border-style:solid;border-color:#0092df;}#primary-menu{flex-wrap:wrap;}#masthead.site-header #primary-menu>li{margin-right:0;}#masthead.site-header #primary-menu>li+li{margin-left:1.2rem;}}@media screen and (min-width:992px){.site-header-bottom{padding:15px 0;border-width:0 0 3px;border-style:solid;border-color:#0092df;}.site-header-left-logo .site-header-bottom{padding:25px 0;}.close_nav{display:none;}}.site-title{margin:0 0 5px;text-transform:uppercase;font-weight:700;font-size:2em;font-family:Poppins,sans-serif;}.site-title a{text-decoration:none;}.site-description{margin:0;}.site-description,.site-title{line-height:1;}.site-header.site-header-left-logo{padding:0;}.site-header-topbar{padding:10px 0;}.site-header.site-header-left-logo .site-header-bottom #primary-menu{justify-content:flex-end;}.top-header-toggle-btn{text-decoration:none;color:#0092df;}.site-header-topbar .topbar-flex-grid{display:flex;flex-flow:wrap row;justify-content:flex-end;}.site-header-topbar .topbar-flex-grid .search-toggle{width:25px;height:25px;line-height:25px;border:none;border-radius:50%;padding:0;margin-right:10px;}.site>.search-section{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;background-color:rgba(0,0,0,.75);position:fixed;left:0;top:0;z-index:0;width:100%;height:0;opacity:0;visibility:hidden;transform:scale(0);}.search-section button.close-btn{padding:0;width:40px;height:40px;line-height:40px;text-align:center;position:absolute;top:35px;right:35px;}.container{width:100%;}@media screen and (min-width:768px) and (max-width:991px){.site-header{position:relative;z-index:30;}.site-header .menu-toggle{position:relative;top:-40px;right:0;float:right;padding:.3rem 0;font-size:15px;display:block;}.site-header .main-navigation #primary-menu{position:absolute;width:100%;left:0;left:-110%;background-color:#fff;z-index:5;padding-bottom:10px;height:0;display:block;opacity:0;}.site-header .main-navigation #primary-menu a{padding:10px 15px;border-bottom:1px solid #f5f5f5;}.main-navigation #primary-menu li{margin-right:0;}}@media screen and (max-width:767px){.site-header{position:relative;text-align:left !important;z-index:30;}.site-header .menu-toggle{position:relative;top:-40px;right:0;float:right;padding:.3rem .8rem;font-size:15px;display:block;}.site-header .main-navigation{background-color:#fff;}.site-header .main-navigation #primary-menu{width:100%;left:0;left:-110%;background-color:#fff;z-index:5;padding-bottom:10px;height:0;display:block;opacity:0;}.site-header .main-navigation #primary-menu a{padding:10px 15px;border-bottom:1px solid #f5f5f5;}.main-navigation #primary-menu li{margin-right:0;}.card_body{max-width:100%;}.site-header-topbar{padding:12px 0;}.site-header-topbar .row{justify-content:center;align-items:center;}}.menu-toggle{width:45px;height:35px;padding:0 !important;text-align:center;position:relative !important;top:0 !important;margin-top:-40px !important;right:0 !important;float:right;}.menu-toggle .line{width:27px;height:3px;background-color:#fff;display:block;margin-left:auto;margin-right:auto;}.menu-toggle .line+.line{margin-top:4px;}.entry-meta>*{margin-right:1em;display:inline-block;}.entry-meta .fa{display:inline-block;margin-right:5px;}.entry-meta a{text-decoration:none;}ul{margin-left:0;margin-bottom:2em;}@media screen and (max-width:767px){.card-single-article .card_media{margin-bottom:20px;}}h3{font-size:1.3rem;}.card_title{font-size:20px;font-weight:600;margin-top:0;margin-bottom:.5em;line-height:1.25;}.card-blog-post{flex-direction:column;padding:20px;box-shadow:2px 5px 20px rgba(0,0,0,.14);}.card-blog-post .card_body .entry-meta{margin-bottom:10px;}.card-single-article .card_media{flex-basis:100%;max-width:100%;}.card-blog-post .entry-meta *{font-size:14px;}.card-blog-post .entry-content{margin-top:0;}@media screen and (min-width:768px){.card-blog-post{flex-direction:row;padding:30px;}.card-blog-post .card_title{font-size:26px;}.card-blog-post .card_media{flex-basis:50%;max-width:50%;}.card-blog-post .card_body{flex:1;max-width:100%;}.card-blog-post .card_media img{margin:0 auto;display:block;}.card-blog-post.card-full-width .card_media{flex-basis:100%;max-width:100%;margin-bottom:20px;}.card-blog-post.card-full-width.card-single-article .card_media{margin-left:0;margin-right:0;margin-bottom:2em;}.card-single-article .entry-meta{margin-bottom:2em;}}.card_media{margin:0;}.fa{display:inline-block;font-family:Fontawesome;}.card-blog-post,.search-form{display:-webkit-box;display:-ms-flexbox;display:flex;}.card-blog-post,.search-form{-ms-flex-wrap:wrap;flex-wrap:wrap;}.search-form{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;}.justify-content-center,.main-navigation ul.justify-content-center{justify-content:center;}input[type=search],input[type=text],textarea{width:100%;display:block;padding:0 15px;}input[type=search],input[type=text]{height:40px;line-height:40px;}.search-form .search-field{width:100%;height:50px;line-height:50px;border-radius:0;padding:0 15px;}.search-form>label{flex-basis:75%;max-width:75%;}.search-form .search-submit{padding:.8em 2em;border:none;border-radius:0;flex:1;max-width:100%;}button,input[type=submit]{padding:.5em 1.5em;display:inline-block;border:1px solid transparent;background-color:transparent;border-radius:5px;text-decoration:none;font-size:14px;position:relative;line-height:1.5;color:#fff;}input[type=submit]{min-height:45px;}.entry-content:after{content:"";display:table;clear:both;}body{margin:0;}@media screen and (max-width:991px){#primary article.post{width:100%;}}li a,p a,span a{color:#0092df;}.search-form .search-submit,button,input[type=submit]{background-color:#0092df;}.main-navigation a{color:#141413;}button,input[type=submit]{color:#e5ece9;}.search-form .search-submit{color:#fff;}.card-blog-post,.site-header{background-color:#fff;}.site-header-topbar{background-color:#eee;}.card-blog-post .entry-meta a{color:#37373f;}@media screen and (min-width:768px){#masthead.site-header #primary-menu>li{margin-right:0;}#masthead.site-header #primary-menu>li+li{margin-left:1.6rem;}}@media screen and (max-width:767px){#primary{padding:0;}.main-navigation ul{display:block;}}@media screen and (max-width:991px){.menu-toggle{display:block;}.site-branding{padding-left:48px;padding-right:48px;}.site-header-left-logo .site-branding{padding-left:0;}#masthead #primary-menu{height:100% !important;max-height:110vh;overflow-y:auto;width:100%;opacity:0;top:0;left:-100%;position:fixed !important;background-color:rgba(0,0,0,.75);}#masthead #primary-menu>li,#masthead #primary-menu>li>a{background-color:#fff;}#masthead.site-header #primary-menu>li+li{margin-left:0;}}.entry-content a{text-decoration:none;}}@media all{.swiper{display:block;list-style:none;margin-left:auto;margin-right:auto;overflow:hidden;padding:0;position:relative;z-index:1;}.swiper-wrapper{box-sizing:initial;display:flex;height:100%;position:relative;width:100%;z-index:1;}.swiper-wrapper{transform:translateZ(0);}.swiper-button-next,.swiper-button-prev{align-items:center;color:#007aff;display:flex;height:44px;justify-content:center;margin-top:-22px;position:absolute;top:50%;width:27px;z-index:10;}.swiper-button-next svg,.swiper-button-prev svg{height:100%;-o-object-fit:contain;object-fit:contain;transform-origin:center;width:100%;}.swiper-button-prev{left:10px;right:auto;}.swiper-button-next:after,.swiper-button-prev:after{font-family:swiper-icons;font-size:44px;font-variant:normal;letter-spacing:0;line-height:1;text-transform:none !important;}.swiper-button-prev:after{content:"prev";}.swiper-button-next{left:auto;right:10px;}.swiper-button-next:after{content:"next";}.swiper-pagination{position:absolute;text-align:center;transform:translateZ(0);z-index:10;}}@media all{:root{--jp-carousel-primary-color:#fff;--jp-carousel-primary-subtle-color:#999;--jp-carousel-bg-color:#000;--jp-carousel-bg-faded-color:#222;--jp-carousel-border-color:#3a3a3a;}.jp-carousel-overlay .swiper-button-next,.jp-carousel-overlay .swiper-button-prev{background-image:none;}.jp-carousel-wrap *{line-height:inherit;}.jp-carousel-wrap.swiper{height:auto;width:100vw;}.jp-carousel-overlay .swiper-button-next,.jp-carousel-overlay .swiper-button-prev{opacity:.5;height:initial;width:initial;padding:20px 40px;background-image:none;}.jp-carousel-overlay .swiper-button-next::after,.jp-carousel-overlay .swiper-button-prev::after{content:none;}.jp-carousel-overlay .swiper-button-next svg,.jp-carousel-overlay .swiper-button-prev svg{height:30px;width:28px;background:var(--jp-carousel-bg-color);border-radius:4px;}.jp-carousel-overlay{font-family:"Helvetica Neue",sans-serif !important;z-index:2147483647;overflow-x:hidden;overflow-y:auto;direction:ltr;position:fixed;top:0;right:0;bottom:0;left:0;background:var(--jp-carousel-bg-color);}.jp-carousel-overlay *{box-sizing:border-box;}.jp-carousel-overlay h2::before,.jp-carousel-overlay h3::before{content:none;display:none;}.jp-carousel-overlay .swiper .swiper-button-prev{left:0;right:auto;}.jp-carousel-overlay .swiper .swiper-button-next{right:0;left:auto;}.jp-carousel-container{display:grid;grid-template-rows:1fr 64px;height:100%;}.jp-carousel-info{display:flex;flex-direction:column;text-align:left !important;-webkit-font-smoothing:subpixel-antialiased !important;z-index:100;background-color:var(--jp-carousel-bg-color);opacity:1;}.jp-carousel-info-footer{position:relative;background-color:var(--jp-carousel-bg-color);height:64px;display:flex;align-items:center;justify-content:space-between;width:100vw;}.jp-carousel-info-extra{display:none;background-color:var(--jp-carousel-bg-color);padding:35px;width:100vw;border-top:1px solid var(--jp-carousel-bg-faded-color);}.jp-carousel-title-and-caption{margin-bottom:15px;}.jp-carousel-photo-info{left:0 !important;width:100% !important;}.jp-carousel-comments-wrapper{padding:0;width:100% !important;display:none;}.jp-carousel-close-hint{letter-spacing:0 !important;position:fixed;top:20px;right:30px;padding:10px;text-align:right;width:45px;height:45px;z-index:15;color:var(--jp-carousel-primary-color);}.jp-carousel-close-hint svg{padding:3px 2px;background:var(--jp-carousel-bg-color);border-radius:4px;}.jp-carousel-pagination-container{flex:1;margin:0 15px 0 35px;}.jp-carousel-pagination,.jp-swiper-pagination{color:var(--jp-carousel-primary-color);font-size:15px;font-weight:400;white-space:nowrap;display:none;position:static !important;}.jp-carousel-pagination-container .swiper-pagination{text-align:left;line-height:8px;}.jp-carousel-pagination{padding-left:5px;}.jp-carousel-info-footer .jp-carousel-photo-title-container{flex:4;justify-content:center;overflow:hidden;margin:0;}.jp-carousel-photo-caption,.jp-carousel-photo-title{background:0 0 !important;border:none !important;display:inline-block;font:400 20px/1.3em "Helvetica Neue",sans-serif;line-height:normal;letter-spacing:0 !important;margin:0 0 10px 0;padding:0;overflow:hidden;text-shadow:none !important;text-transform:none !important;color:var(--jp-carousel-primary-color);}.jp-carousel-info-footer .jp-carousel-photo-caption{text-align:center;font-size:15px;white-space:nowrap;color:var(--jp-carousel-primary-subtle-color);margin:0;text-overflow:ellipsis;}.jp-carousel-photo-title{font-size:32px;margin-bottom:2px;}.jp-carousel-photo-description{color:var(--jp-carousel-primary-subtle-color);font-size:16px;margin:25px 0;width:100%;overflow:hidden;overflow-wrap:break-word;}.jp-carousel-caption{font-size:14px;font-weight:400;margin:0;}.jp-carousel-image-meta{color:var(--jp-carousel-primary-color);font:12px/1.4 "Helvetica Neue",sans-serif !important;width:100%;display:none;}.jp-carousel-image-meta ul{margin:0 !important;padding:0 !important;list-style:none !important;}a.jp-carousel-image-download{display:inline-block;clear:both;color:var(--jp-carousel-primary-subtle-color);line-height:1;font-weight:400;font-size:14px;text-decoration:none;}a.jp-carousel-image-download svg{display:inline-block;vertical-align:middle;margin:0 3px;padding-bottom:2px;}.jp-carousel-comments{font:15px/1.7 "Helvetica Neue",sans-serif !important;font-weight:400;background:none transparent;width:100%;bottom:10px;margin-top:20px;}#jp-carousel-comment-form{margin:0 0 10px !important;width:100%;}textarea#jp-carousel-comment-form-comment-field{background:var(--jp-carousel-bg-faded-color);border:1px solid var(--jp-carousel-border-color);color:var(--jp-carousel-primary-subtle-color);font:16px/1.4 "Helvetica Neue",sans-serif !important;width:100%;padding:10px 10px 5px;margin:0;float:none;height:147px;box-shadow:inset 2px 2px 2px rgba(0,0,0,.1);border-radius:3px;overflow:hidden;box-sizing:border-box;}textarea#jp-carousel-comment-form-comment-field::-webkit-input-placeholder{color:#555;}#jp-carousel-loading-overlay{display:none;position:fixed;top:0;bottom:0;left:0;right:0;}#jp-carousel-loading-wrapper{display:flex;align-items:center;justify-content:center;height:100vh;width:100vw;}#jp-carousel-library-loading,#jp-carousel-library-loading::after{border-radius:50%;width:40px;height:40px;}#jp-carousel-library-loading{float:left;margin:22px 0 0 10px;font-size:10px;position:relative;text-indent:-9999em;border-top:8px solid rgba(255,255,255,.2);border-right:8px solid rgba(255,255,255,.2);border-bottom:8px solid rgba(255,255,255,.2);border-left:8px solid var(--jp-carousel-primary-color);transform:translateZ(0);}#jp-carousel-comment-form-spinner,#jp-carousel-comment-form-spinner::after{border-radius:50%;width:20px;height:20px;}#jp-carousel-comment-form-spinner{display:none;float:left;font-size:10px;position:absolute;text-indent:-9999em;border-top:4px solid rgba(255,255,255,.2);border-right:4px solid rgba(255,255,255,.2);border-bottom:4px solid rgba(255,255,255,.2);border-left:4px solid var(--jp-carousel-primary-color);transform:translateZ(0);margin:0 auto;top:calc(50% - 15px);left:0;bottom:0;right:0;}.jp-carousel-info-content-wrapper{max-width:800px;margin:auto;}#jp-carousel-comment-form-submit-and-info-wrapper{display:none;overflow:hidden;width:100%;}#jp-carousel-comment-form-commenting-as input{background:var(--jp-carousel-bg-color);border:1px solid var(--jp-carousel-border-color);color:var(--jp-carousel-primary-subtle-color);font:16px/1.4 "Helvetica Neue",sans-serif !important;padding:10px;float:left;box-shadow:inset 2px 2px 2px rgba(0,0,0,.2);border-radius:2px;width:285px;}#jp-carousel-comment-form-commenting-as fieldset{float:left;border:none;margin:20px 0 0 0;padding:0;clear:both;}#jp-carousel-comment-form-commenting-as label{font:400 13px/1.7 "Helvetica Neue",sans-serif !important;margin:0 20px 3px 0;float:left;width:100px;}#jp-carousel-comment-form-button-submit{margin-top:20px;margin-left:auto;display:block;border:solid 1px var(--jp-carousel-primary-color);background:var(--jp-carousel-bg-color);border-radius:3px;padding:8px 16px;font-size:14px;color:var(--jp-carousel-primary-color);}#jp-carousel-comment-form-container{margin-bottom:15px;width:100%;margin-top:20px;color:var(--jp-carousel-primary-subtle-color);position:relative;overflow:hidden;}#jp-carousel-comment-post-results{display:none;overflow:auto;width:100%;}#jp-carousel-comments-loading{font:400 15px/1.7 "Helvetica Neue",sans-serif !important;display:none;color:var(--jp-carousel-primary-subtle-color);text-align:left;margin-bottom:20px;width:100%;bottom:10px;margin-top:20px;}.jp-carousel-photo-icons-container{flex:1;display:block;text-align:right;margin:0 20px 0 30px;white-space:nowrap;}.jp-carousel-icon-btn{padding:16px;text-decoration:none;border:none;background:0 0;display:inline-block;height:64px;}.jp-carousel-icon{border:none;display:inline-block;line-height:0;font-weight:400;font-style:normal;border-radius:4px;width:31px;padding:4px 3px 3px;}.jp-carousel-icon svg{display:inline-block;}.jp-carousel-overlay rect{fill:var(--jp-carousel-primary-color);}.jp-carousel-icon .jp-carousel-has-comments-indicator{display:none;font-size:12px;vertical-align:top;margin-left:-16px;line-height:1;padding:2px 4px;border-radius:4px;background:var(--jp-carousel-primary-color);color:var(--jp-carousel-bg-color);font-weight:400;font-family:"Helvetica Neue",sans-serif !important;position:relative;}@media only screen and (max-width:760px){.jp-carousel-overlay .swiper .swiper-button-next,.jp-carousel-overlay .swiper .swiper-button-prev{display:none !important;}.jp-carousel-image-meta{float:none !important;width:100% !important;box-sizing:border-box;margin-left:0;}.jp-carousel-close-hint{font-size:26px !important;position:fixed !important;top:10px;right:10px;}.jp-carousel-wrap{background-color:var(--jp-carousel-bg-color);}.jp-carousel-caption{overflow:visible !important;}.jp-carousel-info-footer .jp-carousel-photo-title-container{display:none;}.jp-carousel-photo-icons-container{margin:0 10px 0 0;white-space:nowrap;}.jp-carousel-icon-btn{padding-left:20px;}.jp-carousel-pagination{padding-left:5px;}.jp-carousel-pagination-container{margin-left:25px;}#jp-carousel-comment-form-commenting-as fieldset,#jp-carousel-comment-form-commenting-as input{width:100%;float:none;}}}</style><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v25.6 (Yoast SEO v26.0) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Museu do Louvre – O que é, onde fica e a história do museu e do castelo</title>
+	<meta name="description" content="O Museu do Louvre, em funcionamento desde o século de 1700, é um dos pontos turísticos mais populares da França e do mundo." />
+	<link rel="canonical" href="https://segredosdomundo.r7.com/museu-do-louvre/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Museu do Louvre – O que é, onde fica e a história do museu e do castelo - Segredos do Mundo" />
+	<meta property="og:description" content="O Museu do Louvre, em funcionamento desde o século de 1700, é um dos pontos turísticos mais populares da França e do mundo." />
+	<meta property="og:url" content="https://segredosdomundo.r7.com/museu-do-louvre/" />
+	<meta property="og:site_name" content="Segredos do Mundo" />
+	<meta property="article:publisher" content="https://www.facebook.com/Segredos.Mundo" />
+	<meta property="article:published_time" content="2020-01-31T12:00:53+00:00" />
+	<meta property="article:modified_time" content="2020-07-07T23:08:08+00:00" />
+	<meta property="og:image" content="https://segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg" />
+	<meta property="og:image:width" content="715" />
+	<meta property="og:image:height" content="429" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Lucas Alves" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="Lucas Alves" />
+	<meta name="twitter:label2" content="Est. tempo de leitura" />
+	<meta name="twitter:data2" content="7 minutos" />
+	<script data-jetpack-boost="ignore" type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://segredosdomundo.r7.com/museu-do-louvre/#article","isPartOf":{"@id":"https://segredosdomundo.r7.com/museu-do-louvre/"},"author":{"name":"Lucas Alves","@id":"https://segredosdomundo.r7.com/#/schema/person/bc581b08feb0abf25e7ce41323490808"},"headline":"Museu do Louvre – O que é, onde fica e a história do museu e do castelo","datePublished":"2020-01-31T12:00:53+00:00","dateModified":"2020-07-07T23:08:08+00:00","mainEntityOfPage":{"@id":"https://segredosdomundo.r7.com/museu-do-louvre/"},"wordCount":1354,"commentCount":4,"publisher":{"@id":"https://segredosdomundo.r7.com/#organization"},"image":{"@id":"https://segredosdomundo.r7.com/museu-do-louvre/#primaryimage"},"thumbnailUrl":"https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=715%2C429&quality=89&ssl=1","keywords":["arte","frança","idade média","museu","obras de arte"],"articleSection":["Viagem"],"inLanguage":"pt-BR","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://segredosdomundo.r7.com/museu-do-louvre/#respond"]}]},{"@type":"WebPage","@id":"https://segredosdomundo.r7.com/museu-do-louvre/","url":"https://segredosdomundo.r7.com/museu-do-louvre/","name":"Museu do Louvre – O que é, onde fica e a história do museu e do castelo","isPartOf":{"@id":"https://segredosdomundo.r7.com/#website"},"primaryImageOfPage":{"@id":"https://segredosdomundo.r7.com/museu-do-louvre/#primaryimage"},"image":{"@id":"https://segredosdomundo.r7.com/museu-do-louvre/#primaryimage"},"thumbnailUrl":"https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=715%2C429&quality=89&ssl=1","datePublished":"2020-01-31T12:00:53+00:00","dateModified":"2020-07-07T23:08:08+00:00","description":"O Museu do Louvre, em funcionamento desde o século de 1700, é um dos pontos turísticos mais populares da França e do mundo.","breadcrumb":{"@id":"https://segredosdomundo.r7.com/museu-do-louvre/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://segredosdomundo.r7.com/museu-do-louvre/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://segredosdomundo.r7.com/museu-do-louvre/#primaryimage","url":"https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=715%2C429&quality=89&ssl=1","contentUrl":"https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=715%2C429&quality=89&ssl=1","width":715,"height":429,"caption":"Museu do Louvre – O que é, onde fica e a história do museu e do castelo"},{"@type":"BreadcrumbList","@id":"https://segredosdomundo.r7.com/museu-do-louvre/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Página Inicial","item":"https://segredosdomundo.r7.com/"},{"@type":"ListItem","position":2,"name":"Viagem","item":"https://segredosdomundo.r7.com/viagem/"},{"@type":"ListItem","position":3,"name":"Museu do Louvre – O que é, onde fica e a história do museu e do castelo"}]},{"@type":"WebSite","@id":"https://segredosdomundo.r7.com/#website","url":"https://segredosdomundo.r7.com/","name":"Segredos do Mundo","description":"Curiosidades, tecnologia e um conteúdo diferencial","publisher":{"@id":"https://segredosdomundo.r7.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://segredosdomundo.r7.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https://segredosdomundo.r7.com/#organization","name":"Segredos do Mundo","url":"https://segredosdomundo.r7.com/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://segredosdomundo.r7.com/#/schema/logo/image/","url":"https://segredosdomundo.r7.com/wp-content/uploads/2021/10/1.png","contentUrl":"https://segredosdomundo.r7.com/wp-content/uploads/2021/10/1.png","width":184,"height":177,"caption":"Segredos do Mundo"},"image":{"@id":"https://segredosdomundo.r7.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Segredos.Mundo","https://x.com/segredosdomundo","https://www.instagram.com/segredosdomundo_/","https://www.youtube.com/channel/UCU16b4QRRMghx09lbJi9t0g"]},{"@type":"Person","@id":"https://segredosdomundo.r7.com/#/schema/person/bc581b08feb0abf25e7ce41323490808","name":"Lucas Alves","image":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://segredosdomundo.r7.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/9b752913a2e7ceb15d4a968c3827ffcad437af266a4415938ace9f2784b1d12b?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/9b752913a2e7ceb15d4a968c3827ffcad437af266a4415938ace9f2784b1d12b?s=96&d=mm&r=g","caption":"Lucas Alves"},"url":"https://segredosdomundo.r7.com/author/lucas/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//fonts-api.wp.com' />
+<link rel='dns-prefetch' href='//s.pubmine.com' />
+<link rel='dns-prefetch' href='//x.bidswitch.net' />
+<link rel='dns-prefetch' href='//static.criteo.net' />
+<link rel='dns-prefetch' href='//ib.adnxs.com' />
+<link rel='dns-prefetch' href='//aax.amazon-adsystem.com' />
+<link rel='dns-prefetch' href='//bidder.criteo.com' />
+<link rel='dns-prefetch' href='//cas.criteo.com' />
+<link rel='dns-prefetch' href='//gum.criteo.com' />
+<link rel='dns-prefetch' href='//ads.pubmatic.com' />
+<link rel='dns-prefetch' href='//gads.pubmatic.com' />
+<link rel='dns-prefetch' href='//tpc.googlesyndication.com' />
+<link rel='dns-prefetch' href='//ad.doubleclick.net' />
+<link rel='dns-prefetch' href='//googleads.g.doubleclick.net' />
+<link rel='dns-prefetch' href='//www.googletagservices.com' />
+<link rel='dns-prefetch' href='//cdn.switchadhub.com' />
+<link rel='dns-prefetch' href='//delivery.g.switchadhub.com' />
+<link rel='dns-prefetch' href='//delivery.swid.switchadhub.com' />
+<link rel='dns-prefetch' href='//af.pubmine.com' />
+<link rel='preconnect' href='//i0.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed de Segredos do Mundo &raquo; Story" href="https://segredosdomundo.r7.com/web-stories/feed/">
+<noscript><link rel='stylesheet' id='all-css-34f8ba91258bbe2243b9aa5f0754fd89' href='https://segredosdomundo.r7.com/_jb_static/??393ced710e' type='text/css' media='all' /></noscript><link rel='stylesheet' id='all-css-34f8ba91258bbe2243b9aa5f0754fd89' href='https://segredosdomundo.r7.com/_jb_static/??393ced710e' type='text/css' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<style id='wp-block-library-inline-css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='fairy-style-inline-css'>
+.primary-color, p a, h1 a, h2 a, h3 a, h4 a, h5 a, .author-title a, figure a, table a, span a, strong a, li a, h1 a, .btn-primary-border, .main-navigation #primary-menu > li > a:hover, .widget-area .widget a:hover, .widget-area .widget a:focus, .card-bg-image .card_body a:hover, .main-navigation #primary-menu > li.focus > a, .category-label-group a:hover, .card_title a:hover, .card-blog-post .entry-meta a:hover, .site-title a:visited, .post-navigation .nav-links > * a:hover, .post-navigation .nav-links > * a:focus, .wp-block-button.is-style-outline .wp-block-button__link, .error-404-title, .ct-dark-mode a:hover, .ct-dark-mode .widget ul li a:hover, .ct-dark-mode .widget-area .widget ul li a:hover, .ct-dark-mode .post-navigation .nav-links > * a, .ct-dark-mode .author-wrapper .author-title a, .ct-dark-mode .wp-calendar-nav a, .site-footer a:hover, .top-header-toggle-btn, .woocommerce ul.products li.product .woocommerce-loop-category__title:hover, .woocommerce ul.products li.product .woocommerce-loop-product__title:hover, .woocommerce ul.products li.product h3:hover, .entry-content dl a, .entry-content table a, .entry-content ul a, .breadcrumb-trail .trial-items a:hover, .breadcrumbs ul a:hover, .breadcrumb-trail .trial-items .trial-end a, .breadcrumbs ul li:last-child a, .comment-list .comment .comment-body a, .comment-list .comment .comment-body .comment-metadata a.comment-edit-link { color: #0092df; }.primary-bg, .btn-primary, .main-navigation ul ul a, #secondary .widget .widget-title:after, #primary .widget .widget-title:after,.fairy-before-footer-widgets .widget .widget-title:after,.fairy-after-slider-widgets .widget .widget-title:after, .search-form .search-submit, .category-label-group a:after, .posts-navigation .nav-links a, .category-label-group.bg-label a, .wp-block-button__link, .wp-block-button.is-style-outline .wp-block-button__link:hover, button, input[type="button"], input[type="reset"], input[type="submit"], .pagination .page-numbers.current, .pagination .page-numbers:hover, table #today, .tagcloud .tag-cloud-link:hover, .footer-go-to-top,  .fairy-menu-social a.website, #masthead #primary-menu.off_canva_nav > .close-nav, .woocommerce ul.products li.product .button,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .fairy-menu-social li a[href*="mailto:"]  { background-color: #0092df; }.primary-border, .btn-primary-border, .site-header-v2,.wp-block-button.is-style-outline .wp-block-button__link, .site-header-bottom { border-color: #0092df; }a:focus, button.slick-arrow:focus, input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, input[type=file]:focus, input[type=number]:focus, input[type=datetime]:focus, input[type=url]:focus, select:focus, textarea:focus { outline-color: #0092df; }.entry-content a { text-decoration-color: #0092df; }.post-thumbnail a:focus img, .card_media a:focus img, article.sticky .card-blog-post { border-color: #0092df; }.site-title, .site-title a, h1.site-title a, p.site-title a,  .site-title a:visited { color: #blank; }.site-description { color: #404040; }body { font-family: 'Poppins'; }.widget-title, , .related-post .card_title  { font-family: 'Roboto'; }.card-blog-post .card_title, .search .card-blog-post .entry-title { font-family: 'Poppins'; }.main-navigation a { font-family: 'Poppins'; }.entry-content h1 { font-family: 'Poppins'; }.entry-content h2, .related-post .post-title { font-family: 'Poppins'; }.entry-content h3 { font-family: 'Poppins'; }.entry-content h4, .author-title { font-family: 'Poppins'; }.entry-content h5 { font-family: 'Poppins'; }.entry-content h6 { font-family: 'Poppins'; }.site-title, .site-title a, .site-title h1 { font-family: 'Oswald'; }body { font-size: 19px; }.widget .widget-title, .related-post .card_title { font-family : 'Roboto'; }.widget .widget-title, .related-post .card_title   { font-size : 18px; }.card-blog-post .card_title, .search .card-blog-post .entry-title { font-family : 'Poppins'; }.widget .hero_slick-slider .card .card_title, .card-blog-post .card_title, .search .card-blog-post .entry-title  { font-size : 29px; }.entry-content h1 { font-size : 36px; }.entry-content h2, .related-post .post-title  { font-size : 32px; }.entry-content h3  { font-size : 26px; }.entry-content h4, .author-title  { font-size : 22px; }.entry-content h5  { font-size : 18px; }.entry-content h6  { font-size : 14px; }.site-title, .site-title a, .site-title h1  { font-size : 54px; }#primary-menu a  { font-size : 19px; }.entry-content h1  { line-height : 1.5; }.entry-content h2, .related-post .post-title  { line-height : 1.5; }.entry-content h3  { line-height : 1.5; }.entry-content h4, .author-title  { line-height : 1.5; }.entry-content h5  { line-height : 1.5; }.entry-content h6  { line-height : 1.5; }.site-title a, .site-title h1 { line-height : 1; }.site-title, .site-title h1, .site-title a  { letter-spacing : 4px; }body, button, input, select, optgroup, textarea, p { line-height : 1.5; }#primary-menu li a { line-height : 1.7; }.widget .widget-title, .related-post .card_title { line-height : 1; }.card-blog-post .card_title, .search .card-blog-post .entry-title { line-height : 1.25; }.light-grayish-white-bg, .search-form .search-field:focus, .site-header.site-header-left-logo .site-header-top, .site-header-topbar, .newsletter-content  { background-color : #0092df; }.site-header.site-header-left-logo .site-header-top .site-header-top-menu li a, .site-header-topbar .site-header-top-menu li a { color : #ffffff; }.site-header.site-header-left-logo .site-header-top .site-header-top-menu li a:hover, .site-header-topbar .site-header-top-menu li a:hover  { color : #afcfdd; }.site-header-v2 .site-header-bottom { background-color : #1e73be; }
+            @media screen and (max-width: 991px){
+            #masthead #primary-menu > li, #masthead #primary-menu > li > a  { background-color : #1e73be; }
+            }.main-navigation a { color : #ffffff; }.main-navigation #primary-menu > li > a:hover { color : #000000; }
+                    .card-bg-image:after{
+                    background-image: linear-gradient(45deg, rgba(255, 126, 0, 0.5), rgba(0, 0, 0, 0.5));
+                    }
+                    
+                    .card-bg-image.card-promo .card_media a:after{
+                    background-image: linear-gradient(45deg, rgba(255, 126, 0, 0.5), rgba(0, 0, 0, 0.5));
+                    }
+                    
+                    .ct-boxed #page{ max-width : 1200px;
+                    }
+                    body.ct-boxed #page{ background-color : #fff; }.site-header .header-main-bar{ background-color : #0092df; }
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 16px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 25px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--larger: 35px;--wp--preset--font-family--albert-sans: 'Albert Sans', sans-serif;--wp--preset--font-family--alegreya: Alegreya, serif;--wp--preset--font-family--arvo: Arvo, serif;--wp--preset--font-family--bodoni-moda: 'Bodoni Moda', serif;--wp--preset--font-family--bricolage-grotesque: 'Bricolage Grotesque', sans-serif;--wp--preset--font-family--cabin: Cabin, sans-serif;--wp--preset--font-family--chivo: Chivo, sans-serif;--wp--preset--font-family--commissioner: Commissioner, sans-serif;--wp--preset--font-family--cormorant: Cormorant, serif;--wp--preset--font-family--courier-prime: 'Courier Prime', monospace;--wp--preset--font-family--crimson-pro: 'Crimson Pro', serif;--wp--preset--font-family--dm-mono: 'DM Mono', monospace;--wp--preset--font-family--dm-sans: 'DM Sans', sans-serif;--wp--preset--font-family--dm-serif-display: 'DM Serif Display', serif;--wp--preset--font-family--domine: Domine, serif;--wp--preset--font-family--eb-garamond: 'EB Garamond', serif;--wp--preset--font-family--epilogue: Epilogue, sans-serif;--wp--preset--font-family--fahkwang: Fahkwang, sans-serif;--wp--preset--font-family--figtree: Figtree, sans-serif;--wp--preset--font-family--fira-sans: 'Fira Sans', sans-serif;--wp--preset--font-family--fjalla-one: 'Fjalla One', sans-serif;--wp--preset--font-family--fraunces: Fraunces, serif;--wp--preset--font-family--gabarito: Gabarito, system-ui;--wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;--wp--preset--font-family--ibm-plex-sans: 'IBM Plex Sans', sans-serif;--wp--preset--font-family--ibarra-real-nova: 'Ibarra Real Nova', serif;--wp--preset--font-family--instrument-serif: 'Instrument Serif', serif;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--josefin-sans: 'Josefin Sans', sans-serif;--wp--preset--font-family--jost: Jost, sans-serif;--wp--preset--font-family--libre-baskerville: 'Libre Baskerville', serif;--wp--preset--font-family--libre-franklin: 'Libre Franklin', sans-serif;--wp--preset--font-family--literata: Literata, serif;--wp--preset--font-family--lora: Lora, serif;--wp--preset--font-family--merriweather: Merriweather, serif;--wp--preset--font-family--montserrat: Montserrat, sans-serif;--wp--preset--font-family--newsreader: Newsreader, serif;--wp--preset--font-family--noto-sans-mono: 'Noto Sans Mono', sans-serif;--wp--preset--font-family--nunito: Nunito, sans-serif;--wp--preset--font-family--open-sans: 'Open Sans', sans-serif;--wp--preset--font-family--overpass: Overpass, sans-serif;--wp--preset--font-family--pt-serif: 'PT Serif', serif;--wp--preset--font-family--petrona: Petrona, serif;--wp--preset--font-family--piazzolla: Piazzolla, serif;--wp--preset--font-family--playfair-display: 'Playfair Display', serif;--wp--preset--font-family--plus-jakarta-sans: 'Plus Jakarta Sans', sans-serif;--wp--preset--font-family--poppins: Poppins, sans-serif;--wp--preset--font-family--raleway: Raleway, sans-serif;--wp--preset--font-family--roboto: Roboto, sans-serif;--wp--preset--font-family--roboto-slab: 'Roboto Slab', serif;--wp--preset--font-family--rubik: Rubik, sans-serif;--wp--preset--font-family--rufina: Rufina, serif;--wp--preset--font-family--sora: Sora, sans-serif;--wp--preset--font-family--source-sans-3: 'Source Sans 3', sans-serif;--wp--preset--font-family--source-serif-4: 'Source Serif 4', serif;--wp--preset--font-family--space-mono: 'Space Mono', monospace;--wp--preset--font-family--syne: Syne, sans-serif;--wp--preset--font-family--texturina: Texturina, serif;--wp--preset--font-family--urbanist: Urbanist, sans-serif;--wp--preset--font-family--work-sans: 'Work Sans', sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-albert-sans-font-family{font-family: var(--wp--preset--font-family--albert-sans) !important;}.has-alegreya-font-family{font-family: var(--wp--preset--font-family--alegreya) !important;}.has-arvo-font-family{font-family: var(--wp--preset--font-family--arvo) !important;}.has-bodoni-moda-font-family{font-family: var(--wp--preset--font-family--bodoni-moda) !important;}.has-bricolage-grotesque-font-family{font-family: var(--wp--preset--font-family--bricolage-grotesque) !important;}.has-cabin-font-family{font-family: var(--wp--preset--font-family--cabin) !important;}.has-chivo-font-family{font-family: var(--wp--preset--font-family--chivo) !important;}.has-commissioner-font-family{font-family: var(--wp--preset--font-family--commissioner) !important;}.has-cormorant-font-family{font-family: var(--wp--preset--font-family--cormorant) !important;}.has-courier-prime-font-family{font-family: var(--wp--preset--font-family--courier-prime) !important;}.has-crimson-pro-font-family{font-family: var(--wp--preset--font-family--crimson-pro) !important;}.has-dm-mono-font-family{font-family: var(--wp--preset--font-family--dm-mono) !important;}.has-dm-sans-font-family{font-family: var(--wp--preset--font-family--dm-sans) !important;}.has-dm-serif-display-font-family{font-family: var(--wp--preset--font-family--dm-serif-display) !important;}.has-domine-font-family{font-family: var(--wp--preset--font-family--domine) !important;}.has-eb-garamond-font-family{font-family: var(--wp--preset--font-family--eb-garamond) !important;}.has-epilogue-font-family{font-family: var(--wp--preset--font-family--epilogue) !important;}.has-fahkwang-font-family{font-family: var(--wp--preset--font-family--fahkwang) !important;}.has-figtree-font-family{font-family: var(--wp--preset--font-family--figtree) !important;}.has-fira-sans-font-family{font-family: var(--wp--preset--font-family--fira-sans) !important;}.has-fjalla-one-font-family{font-family: var(--wp--preset--font-family--fjalla-one) !important;}.has-fraunces-font-family{font-family: var(--wp--preset--font-family--fraunces) !important;}.has-gabarito-font-family{font-family: var(--wp--preset--font-family--gabarito) !important;}.has-ibm-plex-mono-font-family{font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;}.has-ibm-plex-sans-font-family{font-family: var(--wp--preset--font-family--ibm-plex-sans) !important;}.has-ibarra-real-nova-font-family{font-family: var(--wp--preset--font-family--ibarra-real-nova) !important;}.has-instrument-serif-font-family{font-family: var(--wp--preset--font-family--instrument-serif) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-josefin-sans-font-family{font-family: var(--wp--preset--font-family--josefin-sans) !important;}.has-jost-font-family{font-family: var(--wp--preset--font-family--jost) !important;}.has-libre-baskerville-font-family{font-family: var(--wp--preset--font-family--libre-baskerville) !important;}.has-libre-franklin-font-family{font-family: var(--wp--preset--font-family--libre-franklin) !important;}.has-literata-font-family{font-family: var(--wp--preset--font-family--literata) !important;}.has-lora-font-family{font-family: var(--wp--preset--font-family--lora) !important;}.has-merriweather-font-family{font-family: var(--wp--preset--font-family--merriweather) !important;}.has-montserrat-font-family{font-family: var(--wp--preset--font-family--montserrat) !important;}.has-newsreader-font-family{font-family: var(--wp--preset--font-family--newsreader) !important;}.has-noto-sans-mono-font-family{font-family: var(--wp--preset--font-family--noto-sans-mono) !important;}.has-nunito-font-family{font-family: var(--wp--preset--font-family--nunito) !important;}.has-open-sans-font-family{font-family: var(--wp--preset--font-family--open-sans) !important;}.has-overpass-font-family{font-family: var(--wp--preset--font-family--overpass) !important;}.has-pt-serif-font-family{font-family: var(--wp--preset--font-family--pt-serif) !important;}.has-petrona-font-family{font-family: var(--wp--preset--font-family--petrona) !important;}.has-piazzolla-font-family{font-family: var(--wp--preset--font-family--piazzolla) !important;}.has-playfair-display-font-family{font-family: var(--wp--preset--font-family--playfair-display) !important;}.has-plus-jakarta-sans-font-family{font-family: var(--wp--preset--font-family--plus-jakarta-sans) !important;}.has-poppins-font-family{font-family: var(--wp--preset--font-family--poppins) !important;}.has-raleway-font-family{font-family: var(--wp--preset--font-family--raleway) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}.has-roboto-slab-font-family{font-family: var(--wp--preset--font-family--roboto-slab) !important;}.has-rubik-font-family{font-family: var(--wp--preset--font-family--rubik) !important;}.has-rufina-font-family{font-family: var(--wp--preset--font-family--rufina) !important;}.has-sora-font-family{font-family: var(--wp--preset--font-family--sora) !important;}.has-source-sans-3-font-family{font-family: var(--wp--preset--font-family--source-sans-3) !important;}.has-source-serif-4-font-family{font-family: var(--wp--preset--font-family--source-serif-4) !important;}.has-space-mono-font-family{font-family: var(--wp--preset--font-family--space-mono) !important;}.has-syne-font-family{font-family: var(--wp--preset--font-family--syne) !important;}.has-texturina-font-family{font-family: var(--wp--preset--font-family--texturina) !important;}.has-urbanist-font-family{font-family: var(--wp--preset--font-family--urbanist) !important;}.has-work-sans-font-family{font-family: var(--wp--preset--font-family--work-sans) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<noscript><link rel='stylesheet' id='Poppins:400,500,600,700-css' href='//fonts-api.wp.com/css?family=Poppins%3A400%2C500%2C600%2C700&#038;ver=6.8.3' media='all' />
+</noscript><link rel='stylesheet' id='Poppins:400,500,600,700-css' href='//fonts-api.wp.com/css?family=Poppins%3A400%2C500%2C600%2C700&#038;ver=6.8.3' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<noscript><link rel='stylesheet' id='Roboto:400,500,300,700,400italic-css' href='//fonts-api.wp.com/css?family=Roboto%3A400%2C500%2C300%2C700%2C400italic&#038;ver=6.8.3' media='all' />
+</noscript><link rel='stylesheet' id='Roboto:400,500,300,700,400italic-css' href='//fonts-api.wp.com/css?family=Roboto%3A400%2C500%2C300%2C700%2C400italic&#038;ver=6.8.3' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<noscript><link rel='stylesheet' id='Oswald:400,300,700-css' href='//fonts-api.wp.com/css?family=Oswald%3A400%2C300%2C700&#038;ver=6.8.3' media='all' />
+</noscript><link rel='stylesheet' id='Oswald:400,300,700-css' href='//fonts-api.wp.com/css?family=Oswald%3A400%2C300%2C700&#038;ver=6.8.3' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+<style id='jetpack-global-styles-frontend-style-inline-css'>
+:root { --font-headings: unset; --font-base: unset; --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
+</style>
+
+
+
+
+
+
+
+<link rel="https://api.w.org/" href="https://segredosdomundo.r7.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://segredosdomundo.r7.com/wp-json/wp/v2/posts/68460" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://segredosdomundo.r7.com/xmlrpc.php?rsd" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://segredosdomundo.r7.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsegredosdomundo.r7.com%2Fmuseu-do-louvre%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://segredosdomundo.r7.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsegredosdomundo.r7.com%2Fmuseu-do-louvre%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		<link rel="pingback" href="https://segredosdomundo.r7.com/xmlrpc.php">		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+				}
+					</style>
+		<style id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	
+		
+							
+		<link rel="icon" href="https://s0.wp.com/i/webclip.png" sizes="32x32" />
+<link rel="icon" href="https://s0.wp.com/i/webclip.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://s0.wp.com/i/webclip.png" />
+<meta name="msapplication-TileImage" content="https://s0.wp.com/i/webclip.png" />
+
+
+	
+	
+
+<body class="wp-singular post-template-default single single-post postid-68460 single-format-standard custom-background wp-custom-logo wp-embed-responsive wp-theme-fairy-premium fairy-fontawesome-version-4">
+
+<div id="page" class="site">
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+            <section class="search-section">
+            <div class="container">
+                <button class="close-btn"><i class="fa fa-times"></i></button>
+                <form role="search" method="get" class="search-form" action="https://segredosdomundo.r7.com/">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Pesquisar" />
+			</form>            </div>
+        </section>
+            <!-- for sticky header add [.is-sticky-header] class on header tag -->
+        <header id="masthead" class="site-header site-header-left-logo">
+                            <section class="site-header-topbar">
+                    <a href="#" class="top-header-toggle-btn">
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col col-sm-2-3 col-md-2-3 col-lg-2-4">
+                                                            </div>
+                            <div class="col col-sm-1-3 col-md-1-3 col-lg-1-4">
+                                <div class="fairy-menu-social topbar-flex-grid">
+                                            <button class="search-toggle"><i class="fa fas fa-search"></i></button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                    <div id="site-nav-wrap">
+            <!-- for sticky header add [.is-sticky-header] class on header tag -->
+            <section id="site-navigation" class="site-header-bottom header-main-bar " >
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-md-1-4 col-lg-1-4">
+
+                                    <div class="site-branding">
+            <a href="https://segredosdomundo.r7.com/" class="custom-logo-link" rel="home"><img width="317" height="60" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png?fit=317%2C60&amp;quality=80&amp;ssl=1" class="custom-logo" alt="Segredos do Mundo" decoding="async" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png?w=317&amp;quality=80&amp;ssl=1 317w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png?resize=150%2C28&amp;quality=80&amp;ssl=1 150w" sizes="(max-width: 317px) 100vw, 317px" data-attachment-id="149917" data-permalink="https://segredosdomundo.r7.com/cropped-logo-segredos-do-mundo-png/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png?fit=317%2C60&amp;quality=80&amp;ssl=1" data-orig-size="317,60" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cropped-logo-segredos-do-mundo.png" data-image-description="&lt;p&gt;https://segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png&lt;/p&gt;
+" data-image-caption="" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png?fit=317%2C60&amp;quality=80&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2023/04/cropped-logo-segredos-do-mundo.png?fit=317%2C60&amp;quality=80&amp;ssl=1" /></a>                <p class="site-title"><a href="https://segredosdomundo.r7.com/" rel="home">Segredos do Mundo</a></p>
+                            <p class="site-description">Curiosidades, tecnologia e um conteúdo diferencial</p>
+                    </div><!-- .site-branding -->
+        <button id="menu-toggle-button" class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </button>
+                            </div>
+
+                        <div class="col col-md-2-4 col-lg-2-4">
+                                    <nav class="main-navigation">
+            <ul id="primary-menu" class="nav navbar-nav nav-menu justify-content-center">
+                <li id="menu-item-149961" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-149961"><a href="https://segredosdomundo.r7.com/saude/">Saúde</a></li>
+<li id="menu-item-47414" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47414"><a href="https://segredosdomundo.r7.com/curiosidades/">Curiosidades</a></li>
+<li id="menu-item-47416" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47416"><a href="https://segredosdomundo.r7.com/mundo/">Mundo Animal</a></li>
+<li id="menu-item-47415" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47415"><a href="https://segredosdomundo.r7.com/ciencia/">Ciência &amp; Tecnologia</a></li>
+<li id="menu-item-47417" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-47417"><a href="https://segredosdomundo.r7.com/historia/">História</a></li>
+<li id="menu-item-47418" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-47418"><a href="https://segredosdomundo.r7.com/viagem/">Viagem</a></li>
+                <button class="close_nav"><i class="fa fa-times"></i></button>
+            </ul>
+        </nav><!-- #site-navigation -->
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+            </header><!-- #masthead -->
+    <div id="content" class="site-content">
+        
+    
+    <main class="site-main">
+            <div class="container">
+                                <div class="row row-center-col">
+                    <div id="primary" class="col-1-1 col-md-2-3">
+
+                        
+                        
+
+
+<article id="post-68460" class="post-68460 post type-post status-publish format-standard has-post-thumbnail hentry category-viagem tag-arte tag-franca tag-idade-media tag-museu tag-obras-de-arte">
+    <!-- for full single column card layout add [.card-full-width] class -->
+
+    <div class="card card-blog-post card-full-width card-single-article">
+		            <div >
+                						
+						<p id="breadcrumbs"><span><span><a href="https://segredosdomundo.r7.com/">Página Inicial</a></span> » <span><a href="https://segredosdomundo.r7.com/viagem/">Viagem</a></span> » <span class="breadcrumb_last" aria-current="page">Museu do Louvre – O que é, onde fica e a história do museu e do castelo</span></span></p>						
+					<h1 class="card_title">Museu do Louvre – O que é, onde fica e a história do museu e do castelo</h1>				<p>O Museu do Louvre, em funcionamento desde o século de 1700, é um dos pontos turísticos mais populares da França, como também do mundo. </p>
+			<div style="padding-bottom:15px;" class="wordads-tag" data-slot-type="belowpost">
+				<div id="atatags-dynamic-belowpost-68deae48af629">
+					
+				</div>
+			</div>
+  <div class="card_body">
+
+                     <div class="entry-meta">
+                        <span class="posted-on"><i class="fa fa-calendar"></i><a href="https://segredosdomundo.r7.com/museu-do-louvre/" rel="bookmark"><time class="entry-date published" datetime="2020-01-31T09:00:53-03:00">31 de janeiro de 2020</time><time class="updated" datetime="2020-07-07T20:08:08-03:00">7 de julho de 2020</time></a></span><span class="byline"> <span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="https://segredosdomundo.r7.com/author/lucas/">Lucas Alves</a></span></span>					
+  <span class="post-modified-date">Atualizado em 7 de julho de 2020</span>
+
+
+</div><!-- .entry-meta -->
+
+                    <figure class="card_media">
+                
+			<div class="post-thumbnail">
+				<img width="715" height="429" src="https://segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" decoding="async" fetchpriority="high" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?w=715&amp;quality=89&amp;ssl=1 715w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?resize=375%2C225&amp;quality=89&amp;ssl=1 375w" sizes="(max-width: 715px) 100vw, 715px" data-attachment-id="68621" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/museu-do-louvre-2/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=715%2C429&amp;quality=89&amp;ssl=1" data-orig-size="715,429" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;museu do louvre&lt;/p&gt;
+" data-image-caption="" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=375%2C225&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-11.jpg?fit=640%2C384&amp;quality=89&amp;ssl=1" />			</div><!-- .post-thumbnail -->
+
+		            </figure>
+                                        </div>
+                        <div class="entry-content">
+                <p>Um dos pontos turísticos mais famosos da França, e do mundo, é o Museu do Louvre. De fato, os viajantes que vão a Paris têm parada obrigatória no local.</p>
+<p>Considerado um dos maiores e mais célebres museus do mundo, mas não apenas pelas obras que lá residem. Certamente, sua arquitetura espelha todas as transformações pela qual o local já passou.</p>
+<p>Desde uma fortaleza, até tornar-se contemporaneamente em um museu nacional, o Museu do Louvre guarda histórias que perduram durante séculos e carregam a cultura da França.</p>
+<figure id="attachment_68467" aria-describedby="caption-attachment-68467" style="width: 737px" class="wp-caption alignnone"><img data-recalc-dims="1" decoding="async" data-attachment-id="68467" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/images-39/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-1.jpg?fit=737%2C416&amp;quality=89&amp;ssl=1" data-orig-size="737,416" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Museu do Louvre.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;RFI&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-1.jpg?fit=375%2C212&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-1.jpg?fit=640%2C361&amp;quality=89&amp;ssl=1" class="size-full wp-image-68467" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-1.jpg?resize=640%2C361&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="361" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-1.jpg?w=737&amp;quality=89&amp;ssl=1 737w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-1.jpg?resize=375%2C212&amp;quality=89&amp;ssl=1 375w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68467" class="wp-caption-text">RFI</figcaption></figure>
+<p>Portanto, trazendo coleções da monarquia francesa e espólios coletados durante o <a href="https://segredosdomundo.r7.com/nabucodonosor/" target="_blank" rel="noopener">Império</a> Napoleônico, as portas do Museu do Louvre foram abertas no ano de 1793. De fato, ele traz um novo modelo de museu, no qual deixava as classes altas da sociedade para atender também o público em geral.</p>
+<p>Vamos então conhecer um pouco da história do museu e informações para quem deseja saber mais:</p>
+<h2>A história do Museu do Louvre</h2>
+<h4>Louvre na Idade Média</h4>
+<figure id="attachment_68465" aria-describedby="caption-attachment-68465" style="width: 837px" class="wp-caption alignnone"><img data-recalc-dims="1" decoding="async" data-attachment-id="68465" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/museu-do-louvre-1/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo.jpg?fit=837%2C366&amp;quality=89&amp;ssl=1" data-orig-size="837,366" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Louvre na Idade Média&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Info Escola&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo.jpg?fit=375%2C164&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo.jpg?fit=640%2C280&amp;quality=89&amp;ssl=1" class="size-full wp-image-68465" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo.jpg?resize=640%2C280&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="280" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo.jpg?w=837&amp;quality=89&amp;ssl=1 837w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo.jpg?resize=375%2C164&amp;quality=89&amp;ssl=1 375w" sizes="(max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68465" class="wp-caption-text">Info Escola</figcaption></figure>
+<p>Durante os anos escuros, o até então rei Filipe Augusto decidiu construir uma fortaleza disposto de uma masmorra e um quadrilátero. De fato, a função desse novo forte era reforçar a defesa de Paris, além da muralha que já havia sido construída. Portanto, ainda hoje as fossas são visíveis na galeria do Carrossel do Louvre.</p>
+<p>No entanto, no século seguinte, Carlos V decide transformar em um castelo e, por isso, faz reformas no local. Este projeto com apartamentos e ambientes de recreação se tornou moradia para os reis. Tudo foi realizado pelo arquiteto Raymond du Temple.</p>
+<p>Moradia essa por pouco tempo, pois com os anos os reis abandonaram o Louvre e foram para o Vale do Loire. Assim, muito do que tinha no Castelo, foi distribuído para outros locais da França, como por exemplo, a coleção da biblioteca do Castelo que foi para a Biblioteca Nacional da França.</p>
+<h4>A reconstrução do Louvre</h4>
+<figure id="attachment_68625" aria-describedby="caption-attachment-68625" style="width: 690px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68625" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/reconstrucao-do-louvre/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-13.jpg?fit=690%2C445&amp;quality=89&amp;ssl=1" data-orig-size="690,445" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;reconstrução do Louvre&lt;/p&gt;
+" data-image-caption="&lt;p&gt;ND+&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-13.jpg?fit=375%2C242&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-13.jpg?fit=640%2C413&amp;quality=89&amp;ssl=1" class="size-full wp-image-68625" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-13.jpg?resize=640%2C413&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="413" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-13.jpg?w=690&amp;quality=89&amp;ssl=1 690w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-13.jpg?resize=375%2C242&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68625" class="wp-caption-text">ND+</figcaption></figure>
+<p>No século XVI, Francisco I resolve demolir o Louvre e reconstruí-lo. Dessa forma, Francisco ficou conhecido como o soberano da renascença. De fato, foi nessa mesma época que Leonardo da Vinci e Monalisa ficaram conhecidos na França. Portanto, em sua reforma, o Louvre ganha espaços de recepção para mostrar essas obras.</p>
+<p>Posteriormente, Catarina de Médici  mandou construir o Palácio de Tuileries. E, além disso, Henri IV construiu uma grande galeria entre os dois palácios, pois assim poderia circular entre a sua sede de poder e seus apartamentos.</p>
+<p>Essa modernização do Louvre apenas finalizou com Louis XIV anos depois. Vale destacar que ele trouxe o jardim  André Le Nôtre e os canteiros de Versalhes.</p>
+<h4>Origem do Museu do Louvre</h4>
+<figure id="attachment_68475" aria-describedby="caption-attachment-68475" style="width: 783px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68475" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/museu-2/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-9.jpg?fit=783%2C391&amp;quality=89&amp;ssl=1" data-orig-size="783,391" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Museu do Louvre.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Museu do Louvre &#8211; Mineiros na Estrada.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-9.jpg?fit=375%2C187&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-9.jpg?fit=640%2C320&amp;quality=89&amp;ssl=1" class="size-full wp-image-68475" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-9.jpg?resize=640%2C320&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="320" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-9.jpg?w=783&amp;quality=89&amp;ssl=1 783w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-9.jpg?resize=375%2C187&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68475" class="wp-caption-text">Mineiros na Estrada.</figcaption></figure>
+<p>O Rei Luís XVI estava instalando sua corte em <a href="https://segredosdomundo.r7.com/primeira-guerra-mundial/" target="_blank" rel="noopener">Versalhes</a>. No entanto, o Palácio de Louvre foi ocupado por intelectuais e artistas que apresentaram um projeto de museu para o rei. De fato, foi aí que começou a transformação para o Museu de Louvre.</p>
+<p>Certamente, a Revolução Francesa teve grande influência nessa adaptação do palácio para o Museu do Louvre. Isto é porque ela fez com que a galeria fosse aberta para o grande público. As coleções reais estavam sendo expostas no local, além disso, também tinham as diversas conquistas militares. Muitas obras também eram de doações particulares.</p>
+<p>Napoleão Bonaparte fez do Palácio de Tuileries de residência. Posteriormente, Carlos X construiu uma nova galeria ao longo da Rivoli, paralelo à que foi construída por Henri IV.</p>
+<figure id="attachment_68627" aria-describedby="caption-attachment-68627" style="width: 669px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68627" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/louvre-sob-o-sol/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-15.jpg?fit=669%2C446&amp;quality=89&amp;ssl=1" data-orig-size="669,446" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Louvre sob o sol&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Viator&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-15.jpg?fit=375%2C250&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-15.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1" class="size-full wp-image-68627" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-15.jpg?resize=640%2C427&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="427" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-15.jpg?w=669&amp;quality=89&amp;ssl=1 669w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-15.jpg?resize=375%2C250&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68627" class="wp-caption-text">Viator</figcaption></figure>
+<p>O Museu Carlos X foi criado logo depois como o departamento das antiguidades gregas e egípcias. No entanto, foi apenas no Segundo Império que o Louvre adquiriu a forma atual que conhecemos. Assim foram construídos dois corpos de edifícios que rodeiam o pátio Napoleão, no qual hoje encontra-se a Pirâmide do Louvre.</p>
+<p>Além disso, novas salas foram adaptadas para o museu. No entanto, o outro projeto que Napoleão III desejava era no Palácio de Tuileries, mas, infelizmente, esse foi incendiado e muito se perdeu.</p>
+<h4>O Museu do Louvre atualmente</h4>
+<figure id="attachment_68476" aria-describedby="caption-attachment-68476" style="width: 739px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68476" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/museu/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-10.jpg?fit=739%2C415&amp;quality=89&amp;ssl=1" data-orig-size="739,415" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Museu do Louvre ao anoitecer.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Museu do Louvre ao anoitecer &#8211; Aventuras na História.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-10.jpg?fit=375%2C211&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-10.jpg?fit=640%2C359&amp;quality=89&amp;ssl=1" class="size-full wp-image-68476" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-10.jpg?resize=640%2C359&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="359" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-10.jpg?w=739&amp;quality=89&amp;ssl=1 739w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-10.jpg?resize=375%2C211&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68476" class="wp-caption-text">Aventuras na História.</figcaption></figure>
+<p>François Mitterrand tornou-se presidente da França em 1981. Assim ele ficou responsável por revigorar o Museu do Louvre. O arquiteto Ieoh Ming Pei foi quem projetou as pirâmides e o Carrossel do Louvre.</p>
+<p>Inevitavelmente, o maior museu do mundo abriu-se para novos públicos e, desde então, tornou-se esse sucesso de visitação.</p>
+<h2>Exposições do Museu do Louvre</h2>
+<figure id="attachment_68468" aria-describedby="caption-attachment-68468" style="width: 730px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68468" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/museu-do-louvre-3/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-2.jpg?fit=730%2C411&amp;quality=89&amp;ssl=1" data-orig-size="730,411" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Interior do Museu do Louvre.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Interior do Museu do Louvre &#8211; Viaje Comigo.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-2.jpg?fit=375%2C211&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-2.jpg?fit=640%2C360&amp;quality=89&amp;ssl=1" class="size-full wp-image-68468" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-2.jpg?resize=640%2C360&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="360" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-2.jpg?w=730&amp;quality=89&amp;ssl=1 730w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-2.jpg?resize=375%2C211&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68468" class="wp-caption-text">Viaje Comigo</figcaption></figure>
+<p>Um fato importante a ser destacado é que, para conhecer o Museu do Louvre, é imprescindível um mapa. Principalmente pelo seu tamanho e pelo número de obras presentes.</p>
+<p>De fato, as exposições são feitas de forma temática. Sendo assim, há no Museu do Louvre quatro níveis: o subterrâneo e três andares. Certamente, todos divididos de formas como: Antiguidades Orientais, Egípcias, Gregas, <a href="https://segredosdomundo.r7.com/deuses-romanos/" target="_blank" rel="noopener">Romanas</a>, Esculturas e Louvre Medieval.</p>
+<h2>Principais obras do Louvre</h2>
+<h4>Pinturas</h4>
+<p>Entre as pinturas mais importantes e mais procuradas no museu estão:</p>
+<ul>
+<li>Monalisa, de Leonardo da Vinci</li>
+</ul>
+<figure id="attachment_68471" aria-describedby="caption-attachment-68471" style="width: 715px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68471" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/monalisa/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-5.jpg?fit=715%2C429&amp;quality=89&amp;ssl=1" data-orig-size="715,429" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Exposição de Monalisa.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Exposição de Monalisa &#8211; O Globo.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-5.jpg?fit=375%2C225&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-5.jpg?fit=640%2C384&amp;quality=89&amp;ssl=1" class="size-full wp-image-68471" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-5.jpg?resize=640%2C384&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="384" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-5.jpg?w=715&amp;quality=89&amp;ssl=1 715w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-5.jpg?resize=375%2C225&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68471" class="wp-caption-text"><a href="https://oglobo.globo.com/cultura/mona-lisa-sera-transferida-temporariamente-dentro-do-louvre-23770402" target="_blank" rel="noopener">O Globo</a></figcaption></figure>
+<ul>
+<li>A Liberdade Guiando o Povo, de Delacroix</li>
+</ul>
+<figure id="attachment_68473" aria-describedby="caption-attachment-68473" style="width: 679px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68473" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/delacroix/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-7.jpg?fit=679%2C452&amp;quality=89&amp;ssl=1" data-orig-size="679,452" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Exposição de A Liberdade Guiando o Povo.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Exposição de A Liberdade Guiando o Povo &#8211; Da Janela.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-7.jpg?fit=375%2C250&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-7.jpg?fit=640%2C426&amp;quality=89&amp;ssl=1" class="size-full wp-image-68473" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-7.jpg?resize=640%2C426&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="426" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-7.jpg?w=679&amp;quality=89&amp;ssl=1 679w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-7.jpg?resize=375%2C250&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68473" class="wp-caption-text">Da Janela</figcaption></figure>
+<ul>
+<li>As Bodas de Caná, de Veronesse</li>
+</ul>
+<figure id="attachment_68469" aria-describedby="caption-attachment-68469" style="width: 681px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68469" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/bodas-de-cana/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-3.jpg?fit=681%2C450&amp;quality=89&amp;ssl=1" data-orig-size="681,450" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Exposição de As Bodas de Caná.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Exposição de As Bodas de Caná &#8211; Flickr.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-3.jpg?fit=375%2C248&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-3.jpg?fit=640%2C423&amp;quality=89&amp;ssl=1" class="size-full wp-image-68469" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-3.jpg?resize=640%2C423&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="423" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-3.jpg?w=681&amp;quality=89&amp;ssl=1 681w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-3.jpg?resize=375%2C248&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68469" class="wp-caption-text">Flickr</figcaption></figure>
+<h4>Esculturas</h4>
+<p>No entanto, entre as esculturas mais procuradas temos:</p>
+<ul>
+<li>Vênus de Milo, da antiga Grécia</li>
+</ul>
+<figure id="attachment_68472" aria-describedby="caption-attachment-68472" style="width: 509px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68472" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/venus-de-milo/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-6.jpg?fit=509%2C603&amp;quality=89&amp;ssl=1" data-orig-size="509,603" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Exposição da Vênus de Milo.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Exposição da Vênus de Milo &#8211; Travel Magazine.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-6.jpg?fit=317%2C375&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-6.jpg?fit=509%2C603&amp;quality=89&amp;ssl=1" class="size-full wp-image-68472" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-6.jpg?resize=509%2C603&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="509" height="603" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-6.jpg?w=509&amp;quality=89&amp;ssl=1 509w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-6.jpg?resize=317%2C375&amp;quality=89&amp;ssl=1 317w" sizes="auto, (max-width: 509px) 100vw, 509px" /><figcaption id="caption-attachment-68472" class="wp-caption-text">Travel Magazine</figcaption></figure>
+<ul>
+<li>O escriba sentado, do antigo <a href="https://segredosdomundo.r7.com/piramides-do-egito/" target="_blank" rel="noopener">Egito</a></li>
+</ul>
+<figure id="attachment_68470" aria-describedby="caption-attachment-68470" style="width: 740px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68470" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/images-1-22/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-4.jpg?fit=740%2C415&amp;quality=89&amp;ssl=1" data-orig-size="740,415" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Exposição do Escriba Sentado.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Exposição do Escriba Sentado &#8211; 3 em 3.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-4.jpg?fit=375%2C210&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-4.jpg?fit=640%2C359&amp;quality=89&amp;ssl=1" class="size-full wp-image-68470" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-4.jpg?resize=640%2C359&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="359" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-4.jpg?w=740&amp;quality=89&amp;ssl=1 740w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-4.jpg?resize=375%2C210&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68470" class="wp-caption-text">3 em 3</figcaption></figure>
+<ul>
+<li>Vitória de Samotrácia, do período Helenístico da antiga Grécia</li>
+</ul>
+<figure id="attachment_68474" aria-describedby="caption-attachment-68474" style="width: 738px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68474" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/vitoria/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-8.jpg?fit=738%2C415&amp;quality=89&amp;ssl=1" data-orig-size="738,415" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;Exposição da Vitória de Samotrácia.&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Exposição da Vitória de Samotrácia &#8211; Paris Sempre Paris.&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-8.jpg?fit=375%2C211&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-8.jpg?fit=640%2C360&amp;quality=89&amp;ssl=1" class="size-full wp-image-68474" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-8.jpg?resize=640%2C360&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="360" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-8.jpg?w=738&amp;quality=89&amp;ssl=1 738w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-8.jpg?resize=375%2C211&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68474" class="wp-caption-text">Paris Sempre Paris</figcaption></figure>
+<h2>Horários de funcionamento e valores de entrada</h2>
+<figure id="attachment_68628" aria-describedby="caption-attachment-68628" style="width: 757px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68628" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/piramide-do-louvre/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-16.jpg?fit=757%2C405&amp;quality=89&amp;ssl=1" data-orig-size="757,405" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;pirâmide do louvre&lt;/p&gt;
+" data-image-caption="&lt;p&gt;El País&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-16.jpg?fit=375%2C201&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-16.jpg?fit=640%2C342&amp;quality=89&amp;ssl=1" class="size-full wp-image-68628" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-16.jpg?resize=640%2C342&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="640" height="342" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-16.jpg?w=757&amp;quality=89&amp;ssl=1 757w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-16.jpg?resize=375%2C201&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 640px) 100vw, 640px" /><figcaption id="caption-attachment-68628" class="wp-caption-text">El País</figcaption></figure>
+<p>O Museu do Louvre está aberto o ano todo de acordo com o horário a seguir:</p>
+<ul>
+<li>Segunda, quinta, sábado e domingo: 9h às 18h.</li>
+<li>Quarta e sexta: 9h às 21h45.</li>
+<li>O primeiro domingo do mês: 9h às 18h.</li>
+<li>Fechado: todas as terças-feiras, dia 1º de janeiro, 1º de maio e 25 de de dezembro.</li>
+</ul>
+<p>Os valores são:</p>
+<ul>
+<li>Adultos: 17 €</li>
+<li>Até 17 anos: grátis</li>
+</ul>
+<p>Um fato a ser levado em consideração é que, todos os primeiros domingos do mês, a entrada é gratuita, assim como também no dia 14 de julho.</p>
+<h2>Tour online pelo Museu do Louvre</h2>
+<figure id="attachment_68629" aria-describedby="caption-attachment-68629" style="width: 620px" class="wp-caption alignnone"><img data-recalc-dims="1" loading="lazy" decoding="async" data-attachment-id="68629" data-permalink="https://segredosdomundo.r7.com/museu-do-louvre/tour-online/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-17.jpg?fit=620%2C349&amp;quality=89&amp;ssl=1" data-orig-size="620,349" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" data-image-description="&lt;p&gt;tour online&lt;/p&gt;
+" data-image-caption="&lt;p&gt;Via Carreira&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-17.jpg?fit=375%2C211&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-17.jpg?fit=620%2C349&amp;quality=89&amp;ssl=1" class="size-full wp-image-68629" src="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-17.jpg?resize=620%2C349&#038;quality=89&#038;ssl=1" alt="Museu do Louvre – O que é, onde fica e a história do museu e do castelo" width="620" height="349" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-17.jpg?w=620&amp;quality=89&amp;ssl=1 620w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2020/01/museu-do-louvre-o-que-e-onde-fica-e-a-historia-do-museu-e-do-castelo-17.jpg?resize=375%2C211&amp;quality=89&amp;ssl=1 375w" sizes="auto, (max-width: 620px) 100vw, 620px" /><figcaption id="caption-attachment-68629" class="wp-caption-text">Via Carreira</figcaption></figure>
+<p>Certamente, uma visita online não seja sua primeira escolha. No entanto, se no momento você não pode ir, o tour pode ser uma solução.</p>
+<p>Nessa visitação online, você é capaz de ver as fachadas dos edifícios do Louvre, assim como o interior das galerias. Inclusive, um dos destinos possíveis é a exposição de Antiguidades Egípcias.</p>
+<p>Como dito anteriormente, sobre os fossos da fortaleza. Na visitação online também é possível vê-los. Além disso, também é possível ter acesso as pinturas do teto da Galeria de Apolo, em homenagem ao rei Luís XVI. Portanto, o painel principal também está exposto, sendo ele “Apolo Matando a Serpente Píton”, de Delacroix.</p>
+<p>O link para a visita online é: <a href="https://www.louvre.fr/en/visites-en-ligne#tabs" target="_blank" rel="noopener">Virtual Tours</a>.</p>
+<p>E aí, gostou da matéria? Pode ser que você goste também de <a href="https://segredosdomundo.r7.com/museu-nacional-o-que-tinha-no-acervo-consumido-pelo-incendio/" target="_blank" rel="noopener">Museu Nacional: o que tinha no acervo consumido pelo incêndio</a>.</p>
+<p>Fontes: <a href="https://www.infoescola.com/historia/museu-do-louvre/" target="_blank" rel="noopener">Info Escola</a>; <a href="https://br.france.fr/pt/paris/artigo/no-museu-do-louvre" target="_blank" rel="noopener">Explore France</a>; <a href="https://www.pariscityvision.com/pt/paris/museus-de-paris/museu-do-louvre/louvre-palacio-virou-museu" target="_blank" rel="noopener">Paris City Vision</a>; <a href="https://www.tudosobreparis.com/museu-louvre" target="_blank" rel="noopener">Tudo Sobre Paris</a>; <a href="https://viacarreira.com/tour-virtual-louvre/" target="_blank" rel="noopener">Via Carreira</a>.</p>
+<p>Imagem de destaque: <a href="http://www.revistause.com.br/conheca-os-eventos-na-italia-e-na-franca-que-vao-celebrar-leonardo-da-vinci-em-2019/" target="_blank" rel="noopener">USE</a></p>
+			<div style="padding-bottom:15px;" class="wordads-tag" data-slot-type="belowpost">
+				<div id="atatags-dynamic-belowpost-68deae48b6c4b">
+					
+				</div>
+			</div><span id="wordads-inline-marker" style="display: none;"></span>
+<div id='jp-relatedposts' class='jp-relatedposts' >
+	<h3 class="jp-relatedposts-headline"><em>Relacionado</em></h3>
+</div>            </div>
+            
+                            <div class="fairy-after-content-widgets widget-area">
+                    <section id="block-6" class="widget widget_block"></section>                </div><!-- #secondary -->
+
+                
+                        
+
+        </div>
+    </div>
+                <div class="related-post">
+                                    <h2 class="post-title">Outras postagens</h2>
+                                <div class="row">
+                                            <div class="col-1-1 col-sm-1-2 col-md-1-2">
+                            <div class="card card-blog-post card-full-width">
+                                                                    <figure class="card_media">
+                                        <a href="https://segredosdomundo.r7.com/por-que-andar-de-aviao-tem-ficado-perigoso/">
+                                            <img width="1280" height="853" src="https://segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?w=1280&amp;quality=89&amp;ssl=1 1280w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?resize=400%2C267&amp;quality=89&amp;ssl=1 400w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?resize=960%2C640&amp;quality=89&amp;ssl=1 960w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?resize=768%2C512&amp;quality=89&amp;ssl=1 768w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?resize=150%2C100&amp;quality=89&amp;ssl=1 150w" sizes="auto, (max-width: 1280px) 100vw, 1280px" data-attachment-id="157508" data-permalink="https://segredosdomundo.r7.com/por-que-andar-de-aviao-tem-ficado-perigoso/andar-de-aviao-mais-perigoso/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?fit=1280%2C853&amp;quality=89&amp;ssl=1" data-orig-size="1280,853" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="" data-image-description="&lt;p&gt;Avião sobrevoando as nuvens. &lt;/p&gt;
+" data-image-caption="" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?fit=400%2C267&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2025/02/andar-de-aviao-mais-perigoso.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1" />                                        </a>
+                                    </figure>
+                                                                <div class="card_body">
+                                    <div class="category-label-group bg-label"><span class="cat-links"><a class="ct-cat-item-1368" href="https://segredosdomundo.r7.com/curiosidades/"  rel="category tag">Curiosidades</a> <a class="ct-cat-item-25602" href="https://segredosdomundo.r7.com/listas/"  rel="category tag">Listas</a> <a class="ct-cat-item-1428" href="https://segredosdomundo.r7.com/viagem/"  rel="category tag">Viagem</a> </span></div>                                    <h4 class="card_title">
+                                        <a href="https://segredosdomundo.r7.com/por-que-andar-de-aviao-tem-ficado-perigoso/">
+                                            Por que andar de avião tem ficado mais perigoso?                                        </a>
+                                    </h4>
+                                    <div class="entry-meta">
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="col-1-1 col-sm-1-2 col-md-1-2">
+                            <div class="card card-blog-post card-full-width">
+                                                                    <figure class="card_media">
+                                        <a href="https://segredosdomundo.r7.com/oceano-pacifico/">
+                                            <img width="2048" height="1366" src="https://segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="15 fatos e curiosidades interessantes sobre o Oceano Pacífico" decoding="async" loading="lazy" srcset="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?w=2048&amp;quality=89&amp;ssl=1 2048w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?resize=400%2C267&amp;quality=89&amp;ssl=1 400w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?resize=960%2C640&amp;quality=89&amp;ssl=1 960w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?resize=768%2C512&amp;quality=89&amp;ssl=1 768w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?resize=1536%2C1024&amp;quality=89&amp;ssl=1 1536w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?resize=150%2C100&amp;quality=89&amp;ssl=1 150w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?w=1280&amp;quality=89&amp;ssl=1 1280w, https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?w=1920&amp;quality=89&amp;ssl=1 1920w" sizes="auto, (max-width: 2048px) 100vw, 2048px" data-attachment-id="156516" data-permalink="https://segredosdomundo.r7.com/oceano-pacifico/beautiful-tropical-beach-near-the-shore-with-huge-waves/" data-orig-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?fit=2048%2C1366&amp;quality=89&amp;ssl=1" data-orig-size="2048,1366" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;A beautiful tropical beach near the shore with huge waves&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;Beautiful tropical beach near the shore with huge waves&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="15 fatos e curiosidades interessantes sobre o Oceano Pacífico" data-image-description="&lt;p&gt;Imagem de uma paisagem do Oceano. &lt;/p&gt;
+" data-image-caption="" data-medium-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?fit=400%2C267&amp;quality=89&amp;ssl=1" data-large-file="https://i0.wp.com/segredosdomundo.r7.com/wp-content/uploads/2024/09/oceano-pacifico-fatos-curiosidades-scaled.jpg?fit=640%2C427&amp;quality=89&amp;ssl=1" />                                        </a>
+                                    </figure>
+                                                                <div class="card_body">
+                                    <div class="category-label-group bg-label"><span class="cat-links"><a class="ct-cat-item-25602" href="https://segredosdomundo.r7.com/listas/"  rel="category tag">Listas</a> <a class="ct-cat-item-1428" href="https://segredosdomundo.r7.com/viagem/"  rel="category tag">Viagem</a> </span></div>                                    <h4 class="card_title">
+                                        <a href="https://segredosdomundo.r7.com/oceano-pacifico/">
+                                            15 fatos e curiosidades interessantes sobre o Oceano Pacífico                                        </a>
+                                    </h4>
+                                    <div class="entry-meta">
+                                                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+
+                        </div> <!-- .related-post -->
+                <!-- Related Post Code Here -->
+
+</article><!-- #post-68460 -->
+
+<div id="comments" class="comments-area">
+
+			<h2 class="comments-title">
+			4 comentários em &ldquo;<span>Museu do Louvre – O que é, onde fica e a história do museu e do castelo</span>&rdquo;		</h2><!-- .comments-title -->
+
+		
+		<ol class="comment-list">
+					<li id="comment-5197" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://raulsena1.wpcomstaging.com/absinto/" class="url" rel="ugc external nofollow">Absinto - História e características da bebida proibida</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-5263" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://raulsena1.wpcomstaging.com/micareta/" class="url" rel="ugc external nofollow">Micareta - Origem, história e sucesso do famoso evento</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-5356" class="pingback even thread-even depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://conhecimentocientifico.r7.com/pablo-picasso/" class="url" rel="ugc external nofollow">Pablo Picasso - Quem foi, vida, principais obras e legado do artista</a> 			</div>
+		</li><!-- #comment-## -->
+		<li id="comment-5579" class="pingback odd alt thread-odd thread-alt depth-1">
+			<div class="comment-body">
+				Pingback: <a href="https://raulsena1.wpcomstaging.com/menores-paises-do-mundo/" class="url" rel="ugc external nofollow">Menores países do mundo - Conheça 15 vencedores dessa lista</a> 			</div>
+		</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+</div><!-- #comments -->
+                    </div>
+                                    </div>
+
+            </div>
+    </main><!-- #main -->
+
+</div> <!-- #content -->
+
+<!-- Google tag (gtag.js) -->
+
+
+
+
+
+<noscript>
+  <img src="https://sb.scorecardresearch.com/p?c1=2&c2=14194541&cv=2.0&cj=1" />
+</noscript>
+
+
+	<footer id="colophon" class="site-footer">
+                    <section class="site-footer-top">
+                <div class="container">
+                    <div class="row">
+                                                    <div class="col-12 col-sm-1-1 col-md-1-3">
+                                <section id="block-5" class="widget widget_block"><p><a href="https://www.instagram.com/segredosdomundo_">Fale Conosco</a>&nbsp;&nbsp;<br>
+<a href="https://www.instagram.com/segredosdomundo_">Anuncie</a></p></section>                            </div>
+                                                </div>
+                </div>
+            </section>
+            		<section class="site-footer-bottom">
+			<div class="container">
+<img class="alignleft" width="115" height="70" src="https://segredosdomundo.r7.com/wp-content/themes/ss/dist/image/logo-white.png" alt="Área de Mulher">
+                <div class="fairy-menu-social">
+                                    </div>
+								
+                            <div class="site-reserved text-center">
+                Todos os direitos reservados 2023.            </div>
+                    <div class="site-info text-center">
+                Orgulhosamente criado sob o sol ☀️ escaldante de Goiás por Grupo Bolha.            </div>
+        			</div>
+			
+		</section>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+
+<!--  -->
+
+<meta id="bilmur" property="bilmur:data" content="" data-customproperties="{&quot;woo_active&quot;:&quot;0&quot;,&quot;logged_in&quot;:&quot;0&quot;,&quot;wptheme&quot;:&quot;fairy-premium&quot;,&quot;wptheme_is_block&quot;:&quot;0&quot;}" data-provider="wordpress.com" data-service="atomic"  data-site-tz="America/Sao_Paulo" >
+
+
+		
+				<div id="jp-carousel-loading-overlay">
+			<div id="jp-carousel-loading-wrapper">
+				<span id="jp-carousel-library-loading">&nbsp;</span>
+			</div>
+		</div>
+		<div class="jp-carousel-overlay" style="display: none;">
+
+		<div class="jp-carousel-container">
+			<!-- The Carousel Swiper -->
+			<div
+				class="jp-carousel-wrap swiper jp-carousel-swiper-container jp-carousel-transitions"
+				itemscope
+				itemtype="https://schema.org/ImageGallery">
+				<div class="jp-carousel swiper-wrapper"></div>
+				<div class="jp-swiper-button-prev swiper-button-prev">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskPrev" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="9" height="12">
+							<path d="M16.2072 16.59L11.6496 12L16.2072 7.41L14.8041 6L8.8335 12L14.8041 18L16.2072 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskPrev)">
+							<rect x="0.579102" width="23.8823" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+				<div class="jp-swiper-button-next swiper-button-next">
+					<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="maskNext" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="6" width="8" height="12">
+							<path d="M8.59814 16.59L13.1557 12L8.59814 7.41L10.0012 6L15.9718 12L10.0012 18L8.59814 16.59Z" fill="white"/>
+						</mask>
+						<g mask="url(#maskNext)">
+							<rect x="0.34375" width="23.8822" height="24" fill="#FFFFFF"/>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<!-- The main close buton -->
+			<div class="jp-carousel-close-hint">
+				<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<mask id="maskClose" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="15" height="14">
+						<path d="M19.3166 6.41L17.9135 5L12.3509 10.59L6.78834 5L5.38525 6.41L10.9478 12L5.38525 17.59L6.78834 19L12.3509 13.41L17.9135 19L19.3166 17.59L13.754 12L19.3166 6.41Z" fill="white"/>
+					</mask>
+					<g mask="url(#maskClose)">
+						<rect x="0.409668" width="23.8823" height="24" fill="#FFFFFF"/>
+					</g>
+				</svg>
+			</div>
+			<!-- Image info, comments and meta -->
+			<div class="jp-carousel-info">
+				<div class="jp-carousel-info-footer">
+					<div class="jp-carousel-pagination-container">
+						<div class="jp-swiper-pagination swiper-pagination"></div>
+						<div class="jp-carousel-pagination"></div>
+					</div>
+					<div class="jp-carousel-photo-title-container">
+						<h2 class="jp-carousel-photo-caption"></h2>
+					</div>
+					<div class="jp-carousel-photo-icons-container">
+						<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-info" aria-label="Alternar visibilidade de metadados de imagem">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskInfo" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.7537 2C7.26076 2 2.80273 6.48 2.80273 12C2.80273 17.52 7.26076 22 12.7537 22C18.2466 22 22.7046 17.52 22.7046 12C22.7046 6.48 18.2466 2 12.7537 2ZM11.7586 7V9H13.7488V7H11.7586ZM11.7586 11V17H13.7488V11H11.7586ZM4.79292 12C4.79292 16.41 8.36531 20 12.7537 20C17.142 20 20.7144 16.41 20.7144 12C20.7144 7.59 17.142 4 12.7537 4C8.36531 4 4.79292 7.59 4.79292 12Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskInfo)">
+										<rect x="0.8125" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</a>
+												<a href="#" class="jp-carousel-icon-btn jp-carousel-icon-comments" aria-label="Alternar visibilidade de comentários em imagem">
+							<span class="jp-carousel-icon">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="maskComments" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="21" height="20">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M4.3271 2H20.2486C21.3432 2 22.2388 2.9 22.2388 4V16C22.2388 17.1 21.3432 18 20.2486 18H6.31729L2.33691 22V4C2.33691 2.9 3.2325 2 4.3271 2ZM6.31729 16H20.2486V4H4.3271V18L6.31729 16Z" fill="white"/>
+									</mask>
+									<g mask="url(#maskComments)">
+										<rect x="0.34668" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+
+								<span class="jp-carousel-has-comments-indicator" aria-label="Esta imagem contém comentários."></span>
+							</span>
+						</a>
+											</div>
+				</div>
+				<div class="jp-carousel-info-extra">
+					<div class="jp-carousel-info-content-wrapper">
+						<div class="jp-carousel-photo-title-container">
+							<h2 class="jp-carousel-photo-title"></h2>
+						</div>
+						<div class="jp-carousel-comments-wrapper">
+															<div id="jp-carousel-comments-loading">
+									<span>Carregando comentários...</span>
+								</div>
+								<div class="jp-carousel-comments"></div>
+								<div id="jp-carousel-comment-form-container">
+									<span id="jp-carousel-comment-form-spinner">&nbsp;</span>
+									<div id="jp-carousel-comment-post-results"></div>
+																														<form id="jp-carousel-comment-form">
+												<label for="jp-carousel-comment-form-comment-field" class="screen-reader-text">Escreva um Comentário</label>
+												<textarea
+													name="comment"
+													class="jp-carousel-comment-form-field jp-carousel-comment-form-textarea"
+													id="jp-carousel-comment-form-comment-field"
+													placeholder="Escreva um Comentário"
+												></textarea>
+												<div id="jp-carousel-comment-form-submit-and-info-wrapper">
+													<div id="jp-carousel-comment-form-commenting-as">
+																													<fieldset>
+																<label for="jp-carousel-comment-form-email-field">E-mail (obrigatório)</label>
+																<input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-author-field">Nome (obrigatório)</label>
+																<input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" />
+															</fieldset>
+															<fieldset>
+																<label for="jp-carousel-comment-form-url-field">Site</label>
+																<input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" />
+															</fieldset>
+																											</div>
+													<input
+														type="submit"
+														name="submit"
+														class="jp-carousel-comment-form-button"
+														id="jp-carousel-comment-form-button-submit"
+														value="Publicar comentário" />
+												</div>
+											</form>
+																											</div>
+													</div>
+						<div class="jp-carousel-image-meta">
+							<div class="jp-carousel-title-and-caption">
+								<div class="jp-carousel-photo-info">
+									<h3 class="jp-carousel-caption" itemprop="caption description"></h3>
+								</div>
+
+								<div class="jp-carousel-photo-description"></div>
+							</div>
+							<ul class="jp-carousel-image-exif" style="display: none;"></ul>
+							<a class="jp-carousel-image-download" href="#" target="_blank" style="display: none;">
+								<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19" height="18">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.84615 5V19H19.7775V12H21.7677V19C21.7677 20.1 20.8721 21 19.7775 21H5.84615C4.74159 21 3.85596 20.1 3.85596 19V5C3.85596 3.9 4.74159 3 5.84615 3H12.8118V5H5.84615ZM14.802 5V3H21.7677V10H19.7775V6.41L9.99569 16.24L8.59261 14.83L18.3744 5H14.802Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0)">
+										<rect x="0.870605" width="23.8823" height="24" fill="#FFFFFF"/>
+									</g>
+								</svg>
+								<span class="jp-carousel-download-text"></span>
+							</a>
+							<div class="jp-carousel-image-map" style="display: none;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<noscript><link rel='stylesheet' id='all-css-8c4618019faa9808b497dd3791c97a15' href='https://segredosdomundo.r7.com/_jb_static/??ea875ede04' type='text/css' media='all' /></noscript><link rel='stylesheet' id='all-css-8c4618019faa9808b497dd3791c97a15' href='https://segredosdomundo.r7.com/_jb_static/??ea875ede04' type='text/css' media="not all" data-media="all" onload="this.media=this.dataset.media; delete this.dataset.media; this.removeAttribute( 'onload' );" />
+
+
+
+
+
+			<div style="padding-bottom:15px;" class="wordads-tag" data-slot-type="top">
+				<div id="atatags-dynamic-top-68deae48c19d4">
+					
+				</div>
+			</div>
+
+
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/segredosdomundo.r7.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script><script id="jetpack_related-posts-js-extra">
+var related_posts_js_options = {"post_heading":"h4"};
+</script><script type='text/javascript' src='https://segredosdomundo.r7.com/_jb_static/??394642491c'></script><script src="https://public-api.wordpress.com/wpcom/v2/sites/245014879/adflow/conf/?_jsonp=a8c_adflow_callback&amp;ver=15.1-a.11" id="adflow_config-js"></script><script id="jetpack-mu-wpcom-settings-js-before">
+var JETPACK_MU_WPCOM_SETTINGS = {"assetsUrl":"https:\/\/segredosdomundo.r7.com\/wp-content\/mu-plugins\/wpcomsh\/jetpack_vendor\/automattic\/jetpack-mu-wpcom\/src\/build\/"};
+</script><script src="https://segredosdomundo.r7.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script><script type='text/javascript' src='https://segredosdomundo.r7.com/_jb_static/??ac14f6d877'></script><script src="https://public-api.wordpress.com/wpcom/v2/sites/245014879/cmp/configuration/pt_br/?_jsonp=a8c_cmp_callback&amp;ver=15.1-a.11" id="cmp_config_script-js"></script><script>
+var wa_smart = { 'post_id': 68460, 'origin': 'jetpack', 'theme': 'fairy-premium', 'target': 'wp_blog_id=245014879;language=pt_BR', 'top': { 'enabled': true }, 'inline': { 'enabled': true }, 'belowpost': { 'enabled': true }, 'bottom_sticky': { 'enabled': false }, 'sidebar_sticky_right': { 'enabled': false }, 'gutenberg_rectangle': { 'enabled': false }, 'gutenberg_leaderboard': { 'enabled': false }, 'gutenberg_mobile_leaderboard': { 'enabled': false }, 'gutenberg_skyscraper': { 'enabled': false }, 'sidebar_widget_mediumrectangle': { 'enabled': false }, 'sidebar_widget_leaderboard': { 'enabled': false }, 'sidebar_widget_wideskyscraper': { 'enabled': false }, 'shortcode': { 'enabled': false } }; wa_smart.cmd = [];
+</script><script type="text/javascript">
+			var __ATA_PP = { 'pt': 1, 'ht': 1, 'tn': 'fairy-premium', 'uloggedin': '0', 'amp': false, 'siteid': '245014879', 'consent': 0, 'ad': { 'label': { 'text': 'Anúncios' }, 'reportAd': { 'text': 'Denunciar este anúncio' }, 'privacySettings': { 'text': 'Privacidade', 'onClick': function() { window.__tcfapi && window.__tcfapi('showUi'); } } }, 'disabled_slot_formats': [] };
+			var __ATA = __ATA || {};
+			__ATA.cmd = __ATA.cmd || [];
+			__ATA.criteo = __ATA.criteo || {};
+			__ATA.criteo.cmd = __ATA.criteo.cmd || [];
+		</script><script type="text/javascript">
+				window.sas_fallback = window.sas_fallback || [];
+				window.sas_fallback.push(
+					{ tag: "&lt;div id=&quot;atatags-2450148795-{{unique_id}}&quot;&gt;&lt;/div&gt;&lt;script&gt;__ATA.cmd.push(function() {__ATA.initDynamicSlot({id: \'atatags-2450148795-{{unique_id}}\',location: 310,formFactor: \'001\',label: {text: \'Anúncios\',},creative: {reportAd: {text: \'Denunciar este anúncio\',},privacySettings: {text: \'Configurações de privacidade\',onClick: function() { window.__tcfapi &amp;&amp; window.__tcfapi(\'showUi\'); },}}});});&lt;/script&gt;", type: 'inline' },
+					{ tag: "&lt;div id=&quot;atatags-2450148795-{{unique_id}}&quot;&gt;&lt;/div&gt;&lt;script&gt;__ATA.cmd.push(function() {__ATA.initDynamicSlot({id: \'atatags-2450148795-{{unique_id}}\',location: 120,formFactor: \'001\',label: {text: \'Anúncios\',},creative: {reportAd: {text: \'Denunciar este anúncio\',},privacySettings: {text: \'Configurações de privacidade\',onClick: function() { window.__tcfapi &amp;&amp; window.__tcfapi(\'showUi\'); },}}});});&lt;/script&gt;", type: 'belowpost' },
+					{ tag: "&lt;div id=&quot;atatags-2450148795-{{unique_id}}&quot;&gt;&lt;/div&gt;&lt;script&gt;__ATA.cmd.push(function() {__ATA.initDynamicSlot({id: \'atatags-2450148795-{{unique_id}}\',location: 110,formFactor: \'002\',label: {text: \'Anúncios\',},creative: {reportAd: {text: \'Denunciar este anúncio\',},privacySettings: {text: \'Configurações de privacidade\',onClick: function() { window.__tcfapi &amp;&amp; window.__tcfapi(\'showUi\'); },}}});});&lt;/script&gt;", type: 'top' }
+				);
+			</script><script type="text/javascript">
+		function loadIPONWEB() { // TODO: Remove this after June 30th, 2025
+		(function(){var g=Date.now||function(){return+new Date};function h(a,b){a:{for(var c=a.length,d="string"==typeof a?a.split(""):a,e=0;e<c;e++)if(e in d&&b.call(void 0,d[e],e,a)){b=e;break a}b=-1}return 0>b?null:"string"==typeof a?a.charAt(b):a[b]};function k(a,b,c){c=null!=c?"="+encodeURIComponent(String(c)):"";if(b+=c){c=a.indexOf("#");0>c&&(c=a.length);var d=a.indexOf("?");if(0>d||d>c){d=c;var e=""}else e=a.substring(d+1,c);a=[a.substr(0,d),e,a.substr(c)];c=a[1];a[1]=b?c?c+"&"+b:b:c;a=a[0]+(a[1]?"?"+a[1]:"")+a[2]}return a};var l=0;function m(a,b){var c=document.createElement("script");c.src=a;c.onload=function(){b&&b(void 0)};c.onerror=function(){b&&b("error")};a=document.getElementsByTagName("head");var d;a&&0!==a.length?d=a[0]:d=document.documentElement;d.appendChild(c)}function n(a){var b=void 0===b?document.cookie:b;return(b=h(b.split("; "),function(c){return-1!=c.indexOf(a+"=")}))?b.split("=")[1]:""}function p(a){return"string"==typeof a&&0<a.length}
+		function r(a,b,c){b=void 0===b?"":b;c=void 0===c?".":c;var d=[];Object.keys(a).forEach(function(e){var f=a[e],q=typeof f;"object"==q&&null!=f||"function"==q?d.push(r(f,b+e+c)):null!==f&&void 0!==f&&(e=encodeURIComponent(b+e),d.push(e+"="+encodeURIComponent(f)))});return d.filter(p).join("&")}function t(a,b){a||((window.__ATA||{}).config=b.c,m(b.url))}var u=Math.floor(1E13*Math.random()),v=window.__ATA||{};window.__ATA=v;window.__ATA.cmd=v.cmd||[];v.rid=u;v.createdAt=g();var w=window.__ATA||{},x="s.pubmine.com";
+		w&&w.serverDomain&&(x=w.serverDomain);var y="//"+x+"/conf",z=window.top===window,A=window.__ATA_PP&&window.__ATA_PP.gdpr_applies,B="boolean"===typeof A?Number(A):null,C=window.__ATA_PP||null,D=z?document.referrer?document.referrer:null:null,E=z?window.location.href:document.referrer?document.referrer:null,F,G=n("__ATA_tuuid");F=G?G:null;var H=window.innerWidth+"x"+window.innerHeight,I=n("usprivacy"),J=r({gdpr:B,pp:C,rid:u,src:D,ref:E,tuuid:F,vp:H,us_privacy:I?I:null},"",".");
+		(function(a){var b=void 0===b?"cb":b;l++;var c="callback__"+g().toString(36)+"_"+l.toString(36);a=k(a,b,c);window[c]=function(d){t(void 0,d)};m(a,function(d){d&&t(d)})})(y+"?"+J);}).call(this);
+		}
+		</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1360360021251685"
+     crossorigin="anonymous"></script><script>
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script><script type="text/javascript">
+						window.getAdSnippetCallback = function () {
+							if ( false === ( window.isWatlV1 ?? false ) ) {
+								// Use Aditude scripts.
+								window.tudeMappings = window.tudeMappings || [];
+								window.tudeMappings.push( {
+									divId: 'atatags-dynamic-belowpost-68deae48af629',
+									format: 'belowpost',
+								} );
+							}
+						}
+
+						if ( document.readyState === 'loading' ) {
+							document.addEventListener( 'DOMContentLoaded', window.getAdSnippetCallback );
+						} else {
+							window.getAdSnippetCallback();
+						}
+					</script><script type="text/javascript">
+						window.getAdSnippetCallback = function () {
+							if ( false === ( window.isWatlV1 ?? false ) ) {
+								// Use Aditude scripts.
+								window.tudeMappings = window.tudeMappings || [];
+								window.tudeMappings.push( {
+									divId: 'atatags-dynamic-belowpost-68deae48b6c4b',
+									format: 'belowpost',
+								} );
+							}
+						}
+
+						if ( document.readyState === 'loading' ) {
+							document.addEventListener( 'DOMContentLoaded', window.getAdSnippetCallback );
+						} else {
+							window.getAdSnippetCallback();
+						}
+					</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-52301701-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-52301701-1');
+</script><script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "14194541" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/fairy-premium\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script><script defer src="https://s0.wp.com/wp-content/js/bilmur.min.js?m=202540"></script><script async>
+(()=>{"use strict";var t={164:(t,e,r)=>{function n(){return window.devicePixelRatio||1}function i(t){const e=new URL(t).searchParams.get("resize");return e?function(t){const[e,r]=t.split(",").map(Number);return isNaN(e)||isNaN(r)?null:{width:e,height:r}}(e):null}function s(t,e){if(e<=0)return!1;const r=e-t;if(r<0)return!1;if(r<50)return!0;const n=t/e;return n>.9&&n<=1}function o(t){if(!(t.getAttribute("width")&&t.getAttribute("height")&&t.srcset&&t.src&&t.src.includes(".wp.com")))return;const e=function(t){const e=n(),r=t.width/t.height,i=10*Math.ceil(t.width*e/10);return{width:i,height:Math.ceil(i/r)}}(t.getBoundingClientRect()),r=t.srcset.split(","),o=function(t,e){for(const r of t){const[t,n]=r.trim().split(" ");if(!n?.trim().endsWith("w"))continue;const o=i(t);if(o&&s(e,o.width))return{url:new URL(t),...o}}}([`${t.src} 0w`,...r],e.width);if(o)o.url.searchParams.set("_jb","closest"),r.push(`${o.url} ${window.innerWidth*n()}w`),t.srcset=r.join(","),t.sizes="auto";else{const i=function(t,e){const r=new URL(t);return r.searchParams.set("resize",`${e.width},${e.height}`),r}(t.src,e);i.searchParams.set("_jb","custom"),r.push(`${i} ${window.innerWidth*n()}w`),t.srcset=r.join(","),t.sizes="auto"}}r.d(e,{Er:()=>o})}},e={};function r(n){var i=e[n];if(void 0!==i)return i.exports;var s=e[n]={exports:{}};return t[n](s,s.exports,r),s.exports}r.d=(t,e)=>{for(var n in e)r.o(e,n)&&!r.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},r.o=(t,e)=>Object.prototype.hasOwnProperty.call(t,e);var n=r(164);document.querySelectorAll("img[loading=lazy]").forEach(n.Er)})();
+</script><script>window.addEventListener( 'load', function() {
+				document.querySelectorAll( 'link' ).forEach( function( e ) {'not all' === e.media && e.dataset.media && ( e.media = e.dataset.media, delete e.dataset.media );} );
+				var e = document.getElementById( 'jetpack-boost-critical-css' );
+				e && ( e.media = 'not all' );
+			} );</script><script type='text/javascript' src='https://segredosdomundo.r7.com/_jb_static/??32d60b64e7'></script><script id="jetpack-stats-js-before">
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"245014879\",\"post\":\"68460\",\"tz\":\"-3\",\"srv\":\"segredosdomundo.r7.com\",\"hp\":\"atomic\",\"ac\":\"2\",\"amp\":\"0\",\"j\":\"1:15.1-a.11\"}") ]);
+_stq.push([ "clickTrackerInit", "245014879", "68460" ]);
+</script><script src="https://stats.wp.com/e-202540.js" id="jetpack-stats-js" defer data-wp-strategy="defer"></script><script id="jetpack-carousel-js-extra">
+var jetpackSwiperLibraryPath = {"url":"https:\/\/segredosdomundo.r7.com\/wp-content\/plugins\/jetpack\/_inc\/blocks\/swiper.js"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"pt","ajaxurl":"https:\/\/segredosdomundo.r7.com\/wp-admin\/admin-ajax.php","nonce":"7a385375dd","display_exif":"1","display_comments":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Coment\u00e1rio","post_comment":"Publicar coment\u00e1rio","write_comment":"Escreva um Coment\u00e1rio","loading_comments":"Carregando coment\u00e1rios...","image_label":"Abrir imagem em tela cheia.","download_original":"Visualizar tamanho original <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Certifique-se de enviar algum texto com o seu coment\u00e1rio.","no_comment_email":"Informe um endere\u00e7o de e-mail para comentar.","no_comment_author":"Forne\u00e7a seu nome para comentar.","comment_post_error":"Desculpe, mas ocorreu um erro ao postar seu coment\u00e1rio. Tente novamente mais tarde.","comment_approved":"Seu coment\u00e1rio foi aprovado.","comment_unapproved":"Seu coment\u00e1rio est\u00e1 aguardando modera\u00e7\u00e3o.","camera":"C\u00e2mera","aperture":"Abertura","shutter_speed":"Velocidade do Obturador","focal_length":"Comprimento Focal","copyright":"Direito autoral","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/segredosdomundo.r7.com\/wp-login.php?redirect_to=https%3A%2F%2Fsegredosdomundo.r7.com%2Fmuseu-do-louvre%2F","blog_id":"1","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"]};
+</script><script type='text/javascript' src='https://segredosdomundo.r7.com/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?m=1756132798'></script><script type="text/javascript">
+						window.getAdSnippetCallback = function () {
+							if ( false === ( window.isWatlV1 ?? false ) ) {
+								// Use Aditude scripts.
+								window.tudeMappings = window.tudeMappings || [];
+								window.tudeMappings.push( {
+									divId: 'atatags-dynamic-top-68deae48c19d4',
+									format: 'top',
+								} );
+							}
+						}
+
+						if ( document.readyState === 'loading' ) {
+							document.addEventListener( 'DOMContentLoaded', window.getAdSnippetCallback );
+						} else {
+							window.getAdSnippetCallback();
+						}
+					</script></body>
+</html>
