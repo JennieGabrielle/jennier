@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Imagem com caixa translúcida - Igual</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;font-family:"Playfair Display",serif;background:#111}
+
+    .stage{
+      position:relative;
+      min-height:100vh;
+      width:100%;
+      overflow:hidden;
+      display:flex;
+      align-items:flex-start;
+      justify-content:flex-start;
+    }
+
+    .bg {
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      object-position:center top;
+      z-index:0;
+      transform:translateZ(0);
+    }
+
+    .overlay {
+      position:absolute;
+      inset:0;
+      background:rgba(0,0,0,0.55);
+      z-index:1;
+      pointer-events:none;
+    }
+
+    .card {
+      position:relative;
+      z-index:2;
+      margin:48px 48px 0 48px;
+      max-width:2000px;
+      width:calc(100% - 96px);
+      background:rgba(0,0,0,0.7); 
+      padding:48px;
+      box-shadow: 0 24px 40px rgba(0,0,0,0.6), 0 6px 0 rgba(0,0,0,0.18) inset;
+      border-radius:2px;
+    }
+
+    .card p{
+      color:#f10808;
+      font-weight:400;
+      font-size:52px;
+      font-family: "Playfair Display", serif;
+      line-height:1.1;
+      letter-spacing:0.2px;
+      text-shadow: 0 3px 0 rgba(0,0,0,0.6);
+      margin:0;
+    }
+
+    @media (max-width:1200px){
+      .card p{ font-size:clamp(28px,4vw,36px) }
+    }
+    @media (max-width:600px){
+      .card{ margin:20px; padding:20px }
+      .card p{ font-size:22px; line-height:1.12 }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="stage" role="main" aria-label="Imagem com caixa de texto">
+    <img class="bg" src="11 de nov. de 2025 às 11_08 (1).jpg" alt="Fundo">
+    <div class="overlay" aria-hidden="true"></div>
+
+    <article class="card" aria-labelledby="titulo">
+      <p id="titulo">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat cupiditate facere cumque ratione odio doloremque deserunt dignissimos sunt eum alias voluptatum repellendus, quis, dolores perspiciatis enim vero nam quisquam possimus.
+      </p>
+    </article>
+  </main>
+
+</body>
+</html>
