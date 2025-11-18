@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisio+</title>
+
+    <style>
+        body {
+            background: #000; /* fundo preto */
+            color: #fff; /* texto branco */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* caixas com linhas brancas (igual à imagem) */
+        header, nav, aside, main, article, section, footer {
+            border: 2px solid #fff;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        /* layout igual ao da imagem (aside + main lado a lado) */
+        .container {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        article > header,
+        article > section,
+        article > footer {
+            border: 2px solid #fff;
+            margin: 15px 0;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align:center;">Fisio+</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Serviços</a>
+        <a href="#">Profissionais</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+
+        <aside>
+            <h2>Informações</h2>
+            <p>Links úteis, avisos ou menu lateral.</p>
+        </aside>
+
+        <main>
+            <article>
+
+                <header>
+                    <h2>Bem-vindo ao Fisio+</h2>
+                </header>
+
+                <section>
+                    <h3>Nossos Serviços</h3>
+                    <p>
+                        Aqui você encontra informações sobre fisioterapia.
+                    </p>
+                </section>
+
+                <footer>
+                    <p>Publicado por Equipe Fisio+</p>
+                </footer>
+
+            </article>
+        </main>
+
+    </div>
+
+    <footer>
+        <p style="text-align:center;">Fisio+ © 2025 — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
