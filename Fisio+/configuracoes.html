@@ -4,72 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configurações | Fisio+</title>
-    
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+   
     <style>
-        :root { 
+        :root {
             --primary-color: #7d5fff;    
-            --primary-dark: #6741d9;     
+            --primary-dark: #6741d9;    
             --primary-light: #efebff;    
-            --text-color: #2d3436; 
-            --bg-light: #f8f7ff; 
-            --white: #ffffff; 
+            --text-color: #2d3436;
+            --bg-light: #f8f7ff;
+            --white: #ffffff;
             --danger: #ff4757;
-            --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; 
+            --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         }
+
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        body { 
-            font-family: var(--font-main); 
-            background: linear-gradient(rgba(125, 95, 255, 0.15), rgba(125, 95, 255, 0.25)), 
+
+        body {
+            font-family: var(--font-main);
+            background: linear-gradient(rgba(125, 95, 255, 0.15), rgba(125, 95, 255, 0.25)),
                         url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            color: var(--text-color); 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            min-height: 100vh; 
-            padding: 20px; 
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
 
+
         /* Container Principal Glassmorphism */
-        .container { 
-            background: rgba(255, 255, 255, 0.9); 
+        .container {
+            background: rgba(255, 255, 255, 0.9);
             backdrop-filter: blur(15px);
-            padding: 40px; 
-            border-radius: 24px; 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.1); 
-            width: 100%; 
-            max-width: 900px; 
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 900px;
             border: 1px solid rgba(255, 255, 255, 0.6);
         }
 
+
         .header-config { text-align: center; margin-bottom: 30px; }
-        
-        .logo-auth { 
-            font-size: 1.8rem; 
-            font-weight: 800; 
-            color: #4834d4; 
-            text-decoration: none; 
-            display: inline-block; 
-            margin-bottom: 5px; 
+       
+        .logo-auth {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #4834d4;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 5px;
             letter-spacing: -1px;
         }
         .logo-auth span { color: var(--primary-color); }
 
+
         h1 { font-size: 1.8rem; color: var(--text-color); margin-bottom: 5px; }
 
+
         /* Grid de Configurações */
-        .settings-grid { 
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
-            gap: 25px; 
+        .settings-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
             margin-bottom: 30px;
         }
+
 
         .card {
             background: rgba(255, 255, 255, 0.5);
@@ -78,6 +85,7 @@
             border: 1px solid rgba(255, 255, 255, 0.8);
             box-shadow: 0 4px 10px rgba(0,0,0,0.02);
         }
+
 
         .card h2 {
             font-size: 1.1rem;
@@ -90,15 +98,17 @@
             padding-bottom: 10px;
         }
 
+
         /* Itens de Configuração */
         .setting-item { margin-bottom: 15px; }
-        .setting-item label { 
-            display: block; 
-            font-size: 0.85rem; 
-            font-weight: 600; 
-            color: #555; 
-            margin-bottom: 5px; 
+        .setting-item label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 5px;
         }
+
 
         .setting-item input, .setting-item select {
             width: 100%;
@@ -111,10 +121,12 @@
             transition: 0.3s;
         }
 
+
         .setting-item input:focus, .setting-item select:focus {
             border-color: var(--primary-color);
             box-shadow: 0 0 8px rgba(125, 95, 255, 0.1);
         }
+
 
         .setting-toggle {
             display: flex;
@@ -124,6 +136,7 @@
             padding: 5px 0;
         }
 
+
         .switch {
             position: relative;
             display: inline-block;
@@ -131,7 +144,9 @@
             height: 22px;
         }
 
+
         .switch input { opacity: 0; width: 0; height: 0; }
+
 
         .slider {
             position: absolute;
@@ -141,6 +156,7 @@
             transition: .4s;
             border-radius: 34px;
         }
+
 
         .slider:before {
             position: absolute;
@@ -152,17 +168,20 @@
             border-radius: 50%;
         }
 
+
         input:checked + .slider { background-color: var(--primary-color); }
         input:checked + .slider:before { transform: translateX(22px); }
 
+
         /* Botões */
-        .actions { 
-            display: flex; 
-            justify-content: center; 
-            gap: 15px; 
-            padding-top: 20px; 
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding-top: 20px;
             border-top: 1px solid rgba(0,0,0,0.05);
         }
+
 
         .btn {
             padding: 12px 25px;
@@ -177,16 +196,21 @@
             gap: 8px;
         }
 
+
         .btn-primary { background: var(--primary-color); color: white; box-shadow: 0 5px 15px rgba(125, 95, 255, 0.3); }
         .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); }
+
 
         .btn-secondary { background: #e0e0e0; color: #555; }
         .btn-secondary:hover { background: #d0d0d0; }
 
+
         .btn-danger { background: transparent; color: var(--danger); border: 1px solid var(--danger); padding: 8px 15px; font-size: 0.8rem; }
         .btn-danger:hover { background: var(--danger); color: white; }
 
+
         .btn-small { padding: 6px 12px; font-size: 0.8rem; }
+
 
         @media (max-width: 768px) {
             .settings-grid { grid-template-columns: 1fr; }
@@ -196,12 +220,14 @@
 </head>
 <body>
 
+
     <div class="container">
         <header class="header-config">
             <a href="telainicial.html" class="logo-auth">Fisio<span>+</span></a>
             <h1><i class="fas fa-cog"></i> Configurações</h1>
             <p style="color: #636e72;">Personalize sua experiência no sistema Fisio+</p>
         </header>
+
 
         <div class="settings-grid">
             <section class="card">
@@ -219,6 +245,7 @@
                     <button class="btn btn-secondary btn-small"><i class="fas fa-camera"></i> Alterar Foto</button>
                 </div>
             </section>
+
 
             <section class="card">
                 <h2><i class="fas fa-bell"></i> Notificações</h2>
@@ -245,6 +272,7 @@
                 </div>
             </section>
 
+
             <section class="card">
                 <h2><i class="fas fa-palette"></i> Interface</h2>
                 <div class="setting-item">
@@ -264,6 +292,7 @@
                     </select>
                 </div>
             </section>
+
 
             <section class="card">
                 <h2><i class="fas fa-shield-alt"></i> Segurança</h2>
@@ -285,11 +314,13 @@
             </section>
         </div>
 
+
         <div class="actions">
             <button class="btn btn-primary" onclick="salvar()"><i class="fas fa-save"></i> Salvar Alterações</button>
             <button class="btn btn-secondary" onclick="window.location.href='telainicial.html'">Cancelar</button>
         </div>
     </div>
+
 
     <script>
         function salvar() {
@@ -299,3 +330,4 @@
     </script>
 </body>
 </html>
+
