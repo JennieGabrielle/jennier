@@ -6,13 +6,13 @@
     <title>Fisio+ | Saúde e Bem-estar</title>
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-   
-    <link rel="stylesheet" href="telainicial.css">
+    <link rel="stylesheet" href="TelaInicial.css">
 </head>
 <body>
 
+
     <div id="overlay-menu" class="overlay-menu" onclick="toggleMenu()"></div>
-    
+   
     <aside id="menu-lateral" class="menu-lateral">
         <div class="menu-header">
             <h3>Navegação</h3>
@@ -33,17 +33,30 @@
         </nav>
     </aside>
 
-    <header>
+
+    <header id="main-header">
         <div class="container header-content">
-            
+           
             <div style="display: flex; align-items: center;">
-                <i class="fa-solid fa-bars btn-menu-toggle" onclick="toggleMenu()"></i>
+                <i id="icon-menu" class="fa-solid fa-bars btn-menu-toggle" onclick="toggleMenu()" style="display: none;"></i>
                 <a href="telainicial.html" class="logo-img">
                     <img src="logor.png" alt="Logo Fisio+">
                 </a>
             </div>
            
-            <nav>
+            <nav style="display: flex; align-items: center; gap: 20px;">
+                <ul id="menu-topo-admin" class="menu-topo-style" style="display: none;">
+                    <li><a href="cadastrocliente.html">Clientes</a></li>
+                    <li><a href="cadastroprofissional.html">Profissionais</a></li>
+                    <li><a href="agendamentos.html">Agenda</a></li>
+                    <li><a href="checkin.html">Check-in</a></li>
+                    <li><a href="prontuarios.html">Prontuários</a></li>
+                    <li><a href="financeiro.html">Financeiro</a></li>
+                    <li><a href="relatorios.html">Relatórios</a></li>
+                    <li><a href="configuracoes.html">Configurações</a></li>
+                </ul>
+
+
                 <ul id="nav-links">
                     <li><a href="telainicial.html">Início</a></li>
                     <li id="menu-login"><a href="login.html" class="btn-outline">Entrar</a></li>
@@ -51,6 +64,7 @@
             </nav>
         </div>
     </header>
+
 
     <section class="hero" id="hero-section">
         <div class="container">
@@ -64,9 +78,9 @@
         </div>
     </section>
 
+
     <div id="conteudo-publico">
         <div class="container">
-           
             <div class="section-row">
                 <div class="text-col">
                     <h2>Método Exclusivo de Tratamento</h2>
@@ -81,7 +95,7 @@
                     <img src="pilates-e-fisioterapia-combinacao-poderosa-para-a-sua-saude.jpg" alt="Fisioterapeuta atendendo paciente">
                 </div>
             </div>
-
+       
             <div class="section-row reverse">
                 <div class="text-col">
                     <h2>Nossos Serviços Especializados</h2>
@@ -98,8 +112,10 @@
                 </div>
             </div>
 
+
         </div>
     </div>
+
 
     <section id="painel-gestao">
         <div class="container">
@@ -113,37 +129,30 @@
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-users painel-icon"></i></div>
                     <div class="painel-title">Clientes</div>
                 </a>
-               
                 <a href="cadastroprofissional.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-user-doctor painel-icon"></i></div>
                     <div class="painel-title">Profissionais</div>
                 </a>
-
                 <a href="agendamentos.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-calendar-days painel-icon"></i></div>
                     <div class="painel-title">Agenda</div>
                 </a>
-
                 <a href="checkin.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-check-to-slot painel-icon"></i></div>
                     <div class="painel-title">Check-in</div>
                 </a>
-
                 <a href="prontuarios.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-file-medical painel-icon"></i></div>
                     <div class="painel-title">Prontuários</div>
                 </a>
-
                 <a href="financeiro.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-money-bill-trend-up painel-icon"></i></div>
                     <div class="painel-title">Financeiro</div>
                 </a>
-
                 <a href="relatorios.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-chart-pie painel-icon"></i></div>
                     <div class="painel-title">Relatórios</div>
                 </a>
-
                 <a href="configuracoes.html" class="painel-card">
                     <div class="painel-icon-wrapper"><i class="fa-solid fa-sliders painel-icon"></i></div>
                     <div class="painel-title">Configurações</div>
@@ -152,18 +161,18 @@
         </div>
     </section>
 
+
     <footer>
         <div class="container">
             <p>&copy; 2025 Fisio+ | Excelência em Reabilitação Física.</p>
         </div>
     </footer>
 
+
     <script>
-        // Função para abrir/fechar o menu
         function toggleMenu() {
             var menu = document.getElementById('menu-lateral');
             var overlay = document.getElementById('overlay-menu');
-            
             if (menu.classList.contains('aberto')) {
                 menu.classList.remove('aberto');
                 overlay.style.display = 'none';
@@ -173,13 +182,21 @@
             }
         }
 
+
         window.onload = function() {
             var estaLogado = localStorage.getItem('esta_logado');
             var dadosUsuario = localStorage.getItem('usuario_fisio');
 
+
             if (estaLogado === 'sim' && dadosUsuario) {
                 var usuario = JSON.parse(dadosUsuario);
                 var primeiroNome = usuario.nome.split(' ')[0];
+
+
+                // ALTERAÇÃO 3: Mostrar elementos apenas quando logado
+                document.getElementById('icon-menu').style.display = 'block'; // Mostra o menu hamburguer
+                document.getElementById('menu-topo-admin').style.display = 'flex'; // Mostra o menu fixo
+
 
                 // Atualiza o menu superior
                 document.getElementById('menu-login').innerHTML = `
@@ -189,8 +206,10 @@
                     </div>
                 `;
 
+
                 // --- MODO ADMINISTRATIVO ---
                 document.getElementById('conteudo-publico').style.display = 'none';
+
 
                 document.getElementById('titulo-hero').innerText = "Viva a vida com saúde";
                 document.getElementById('subtitulo-hero').style.display = 'none';
@@ -200,6 +219,7 @@
                 document.getElementById('painel-gestao').style.display = 'block';
             }
         };
+
 
         function sairDaConta() {
             if(confirm("Deseja realmente sair do sistema?")) {
